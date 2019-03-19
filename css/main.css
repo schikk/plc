@@ -1,0 +1,166 @@
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%;}
+html {font-size: 7.320644216691069vw;}
+body                            { padding:0; margin:0; font: .14rem 'AvantGardeGothicC'; line-height: 1.5; background: #fff; color: #282828;}
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,input,textarea,header, nav, section, article, aside, footer, blockquote {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+	box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+}
+header, nav, section, article, aside, footer {
+	display: block
+}
+select, input, textarea        {  font:italic .14rem 'AvantGardeGothicC'; color: #282828; vertical-align:middle; }
+textarea                       { vertical-align:top; resize:none;}
+:focus                         { outline:none; }
+input[type=submit], button     { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a                              { font: .14rem 'AvantGardeGothicC'; color: #282828; text-decoration:none; }
+a:hover                        { text-decoration:none; }
+input,
+textarea{
+    border: none;
+    border-radius: 0;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    color: #343433;
+    width: 100%;
+}
+textarea{
+    resize: none;
+}
+button {
+    background: transparent;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+.middle                        { position: relative; top:50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%);}
+
+h1::selection,
+h2::selection,
+h3::selection,
+p::selection,
+li::selection,
+a::selection,
+strong::selection,
+span::selection,
+blockquote::selection {
+	color: #fff;
+    background: #1C5630; /* Цвет фона */
+}
+
+/*-----------------------------------PLC BUTTONS-----------------------------------*/
+/*btn types: .plc-btn, .plc-btn.green-btn, .plc-btn.white-blue-btn, .plc-btn.blue-white-btn, .details-btn*/
+.plc-btn {
+	display: inline-block;
+	font-size: .14rem;
+	line-height: .21rem;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	text-align: center;
+	padding: .24rem .45rem;
+	position: relative;
+	z-index: 2;
+}
+.plc-btn::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    box-sizing: border-box;
+    transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+}
+.plc-btn.green-btn {
+	color: #282828;
+	border: 1px solid #1C5630;
+}
+.green-btn::before {
+	background: #1C5630;
+}
+.plc-btn.white-blue-btn {
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+}
+.white-blue-btn::before {
+	background: #00A0DC;
+}
+.plc-btn.blue-white-btn {
+	border: 1px solid #00A0DC;
+	color: #FFFFFF;
+}
+.blue-white-btn::before {
+    height: 100%;
+    bottom: auto;
+    top: 0%;
+	background: #00A0DC;
+}
+.details-btn {
+	font-size: .14rem;
+	line-height: .17rem;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	color: #282828;
+	transition: color .5s;
+}
+/* btns hover */
+@media only screen and (min-width: 767px) {
+	.plc-btn:hover::before {
+	    height: 100%;
+	    bottom: auto;
+	    top: 0%;
+	}
+	.green-btn:hover {
+		color: #FFFFFF;
+	}
+	.blue-white-btn:hover {
+		border: 1px solid #FFFFFF;
+		background: transparent;
+	}
+	.blue-white-btn:hover::before {
+	    height: 0%;
+	    bottom: 0;
+	    top: auto;
+	}
+	.details-btn:hover {
+		color: #1C5630;
+	}
+}
+/*--------------------------------------WRAP--------------------------------------*/
+
+/*-------------------------------------HEADER---------------------------------------*/
+ 
+/*-------------------------------------CONTENT--------------------------------------*/
+
+/*-------------------------------------FOOTER---------------------------------------*/
+

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'AvantGardeGothicC';
+    src: url('AvantGardeGothicC.woff2') format('woff2'),
+        url('AvantGardeGothicC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvantGardeGothicC';
+    src: url('AvantGardeGothicC-Bold.woff2') format('woff2'),
+        url('AvantGardeGothicC-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvantGardeGothicC';
+    src: url('AvantGardeGothicC-Italic.woff2') format('woff2'),
+        url('AvantGardeGothicC-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AvantGardeGothicC';
+    src: url('AvantGardeGothicC-BoldItalic.woff2') format('woff2'),
+        url('AvantGardeGothicC-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
