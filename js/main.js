@@ -1,4 +1,21 @@
 $(document).ready(function() {
+
+  // Change color burger menu on scroll
+  var offsetsArr = [];
+  function changeBurger() {
+      for (var i = $('section').length - 1; i >= 0; i--) { offsetsArr[i] = $('section').eq(i).offset().top; }
+      var hamburgerOffsetTop = $('.header-menu-btn').offset().top;
+      for (var i = 0; i < offsetsArr.length; i++) {
+          if (hamburgerOffsetTop < offsetsArr[i + 1]) {
+              if ($('section').eq(i).hasClass('white-section') || $('section').eq(i).hasClass('white-section')) { $('.header-menu-btn').addClass('dark-burger'); } else { $('.header-menu-btn').removeClass('dark-burger'); }
+              break;
+          }
+      }
+  }
+  $(document).scroll(function() {
+    changeBurger();
+  });
+
 	// Open main menu
 	$('.header-menu-btn').click(function(event) {
 		$('.header-menu-container').addClass('active');

@@ -1,7 +1,7 @@
-		<footer class="main-footer">
+		<footer class="main-footer white-section">
 			<div class="main-footer-left-col">
 				<div id="contacts_map">
-					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOV433evTNZIBxrVfA_-HPhW2iFgfXXbc&amp" type="text/javascript"></script>
+					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFJl-oqf0NECka4ZBhXlOVfeUnLvAa-Yw" type="text/javascript"></script>
 				</div>
 			</div>
 			<div class="main-footer-right-col">
@@ -36,11 +36,30 @@
 				<script src="js/templates/page-frontpage.js"></script>
 				<!-- PAGE - FRONTPAGE (END) -->
 			<?php }
-			if ( strpos( $currentpage, 'page-about.php' ) == true ) { ?>
-				<!-- PAGE - ABOUT -->
-				<script src="js/specific/about-page.js"></script>
-				<!-- PAGE - ABOUT (END) -->
-			<?php }															
+			if ( strpos( $currentpage, 'page-genplan.php' ) == true ) { ?>
+				<!-- PAGE - GENPLAN -->
+				<script src="js/libs/rSlider.min.js"></script>
+				<script src="js/templates/page-genplan.js"></script>
+				<!-- PAGE - GENPLAN (END) -->
+			<?php }
+			if ( strpos( $currentpage, 'category-section-floors.php' ) == true ) { ?>
+				<!-- PAGE - SECTIONS-FLOORS -->
+				<script src="js/libs/selectize.js"></script>
+				<script src="js/templates/category-section-floors.js"></script>
+				<!-- PAGE - SECTIONS-FLOORS (END) -->
+			<?php }
+			if ( strpos( $currentpage, 'category-apartments-filter.php' ) == true ) { ?>
+				<!-- PAGE - APARTMENTS FILTER -->
+				<script src="js/libs/selectize.js"></script>
+				<script src="js/libs/rSlider.min.js"></script>
+				<script src="js/templates/category-apartments-filter.js"></script>
+				<!-- PAGE -APARTMENTS FILTER (END) -->
+			<?php }
+			if ( strpos( $currentpage, 'single-apartment.php' ) == true ) { ?>
+				<!-- PAGE - SINGLE APARTMENT -->
+				<script src="js/templates/single-apartment.js"></script>
+				<!-- PAGE - SINGLE APARTMENT (END) -->
+			<?php }																				
 		?>
 	</body>
 </html>

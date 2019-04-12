@@ -97,7 +97,7 @@ $(document).ready(function() {
 	// Slider advantages complex
 	function moveListSlider(id) {
 	    var container = $(id),
-	        sliderContainer = container.find('.move-list-container'),
+	        sliderContainer = container.find('.store-slider-container'),
 	        sliderList = container.find('.move-list'),
 	        sliderListItem = sliderList.children('li'),
 	        control = container.find('.move-controls'),

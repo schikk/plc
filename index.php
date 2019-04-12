@@ -21,7 +21,7 @@
 						<div class="intro-slider-content">
 							<h2 class="intro-slider-title">Твій простір для життя Park Lake City</h2>
 							<p class="intro-slider-description">Дім, де є все для здорового життя. Твій дім — твоє життя. Особливий простір для тебе і твоєї сім’ї.</p>
-							<a href="#" class="plc-btn white-blue-btn">Обрати квартиру</a>
+							<a href="page-genplan.php" class="plc-btn white-blue-btn">Обрати квартиру</a>
 						</div>
 					</li>
 					<li>
@@ -29,7 +29,7 @@
 						<div class="intro-slider-content">
 							<h2 class="intro-slider-title">Твій простір для життя Park Lake City</h2>
 							<p class="intro-slider-description">Дім, де є все для здорового життя. Твій дім — твоє життя. Особливий простір для тебе і твоєї сім’ї.</p>
-							<a href="#" class="plc-btn white-blue-btn">Обрати квартиру</a>
+							<a href="page-genplan.php" class="plc-btn white-blue-btn">Обрати квартиру</a>
 						</div>
 					</li>
 					<li>
@@ -37,7 +37,7 @@
 						<div class="intro-slider-content">
 							<h2 class="intro-slider-title">Твій простір для життя Park Lake City</h2>
 							<p class="intro-slider-description">Дім, де є все для здорового життя. Твій дім — твоє життя. Особливий простір для тебе і твоєї сім’ї.</p>
-							<a href="#" class="plc-btn white-blue-btn">Обрати квартиру</a>
+							<a href="page-genplan.php" class="plc-btn white-blue-btn">Обрати квартиру</a>
 						</div>
 					</li>								
 				</ul>				
@@ -58,7 +58,7 @@
 				<span class="scroll-down-line"></span>
 			</div>
 		</section>
-		<section class="about-complex">
+		<section class="about-complex white-section">
 			<div class="about-complex-left-col">
 				<h2 class="plc-section-title">ПРО КОМПЛЕКС</h2>
 				<h3 class="plc-section-subtitle">Твій дім — твоє життя</h3>
@@ -71,7 +71,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="advantages-complex" id="advantages-complex">
+		<section class="advantages-complex " id="advantages-complex">
 			<svg class="plc-section-bg-overlay" xmlns="http://www.w3.org/2000/svg" width="1367" height="771" viewBox="0 0 1367 771" fill="none">
 				<defs>
 				  <pattern id="img1" patternUnits="userSpaceOnUse" width="1600" height="900">
@@ -116,7 +116,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="technical-features-complex">
+		<section class="technical-features-complex white-section">
 			<div class="t-f-complex-left-col">
 				<div class="technical-features-img-container">
 					<img src="img/frontpage/technical-features.jpg" alt="">
@@ -172,7 +172,7 @@
 				</ul>
 			</div>
 		</section>
-		<section class="other-advantages" id="infrastructure-slider">
+		<section class="other-advantages " id="infrastructure-slider">
 			<svg class="plc-section-bg-overlay" xmlns="http://www.w3.org/2000/svg" width="1367" height="771" viewBox="0 0 1367 771" fill="none">
 				<defs>
 				  <pattern id="img2" patternUnits="userSpaceOnUse" width="1600" height="900">
@@ -255,7 +255,7 @@
 				</div>				
 			</div>
 		</section>
-		<section class="about-leisure">
+		<section class="about-leisure white-section">
 			<div class="about-leisure-left-col">
 				<div class="about-complex-img-container">
 					<img src="img/frontpage/leisure.jpg" alt="">
@@ -268,7 +268,7 @@
 				<a href="page-about.php" class="plc-btn green-btn">Детальніше</a>
 			</div>
 		</section>
-		<section class="project-effectiveness">
+		<section class="project-effectiveness white-section">
 			<div class="project-effectiveness-left-col">
 				<h2 class="plc-section-title">ЕФЕКТИВНІСТЬ ПРОЕКТУ</h2>
 				<h3 class="plc-section-subtitle">Сертифікація BREEAM</h3>
@@ -388,7 +388,7 @@
 				</ul>					
 			</div>		
 		</section>
-		<section class="about-developer">
+		<section class="about-developer white-section">
 			<div class="about-developer-left-col">
 				<h2 class="plc-section-title">ЗАБУДОВНИК</h2>
 				<h3 class="plc-section-subtitle">DIM — це довіра та надійність</h3>
