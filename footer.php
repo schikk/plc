@@ -20,13 +20,40 @@
                         <a href="mailto:parklakecity@gmail.com">parklakecity@gmail.com</a>
                     </li>
                 </ul>
-                <a href="#" class="plc-btn green-btn" id="plc-form-init-btn">Організувати перегляд</a>
+                <a href="#" class="plc-btn green-btn plc-form-init-btn">Організувати перегляд</a>
 			</div>
 		</footer>
+		<!-- FEEDBACK FORM -->
+		<div class="feedback-form-container">
+			<span class="close-menu-btn"></span>
+			<div class="feedback-form-wrapper">
+				<h6>Замовити дзвінок</h6>
+				<form action="#" id="form-feedback">
+					<div class="input-wrapper">
+						<input class="forms-input" type="text" id="client-name" name="client-name" placeholder="Ваше ім’я" autocomplete="off">
+						<span class="wrong-mssg">Введіть коректне ім’я</span>
+					</div>
+					<div class="input-wrapper">
+						<input class="forms-input" type="tel" id="client-phone" name="client-phone" placeholder="Ваш телефон" autocomplete="off">
+						<span class="wrong-mssg">Ви не ввели номер телефону</span>
+					</div>
+					<span class="plc-btn green-btn">
+	                    <input id="order-button" type="submit">
+	                    <span>Відправити</span>
+	                </span>
+				</form>
+			</div>
+			<div class="success-mssg">
+				<h6>Дякуємо за Вашу заявку!</h6>
+				<p>Ми зв’яжемося з Вами найближчим часом</p>
+			</div>
+			<div class="decorate-lines"></div>
+		</div>
 		<!-- MAIN JS -->
 		<script src="js/libs/jquery-3.3.1.min.js"></script>
 		<script src="js/libs/jquery-migrate-3.0.0.min.js"></script>
 		<script src="js/libs/jquery.mobile.custom.min.js"></script>
+		<script src="js/libs/jquery.mask.min.js"></script>
 		<script src="js/main.js"></script>
 		<!-- SPECIFIC JS -->
 		<?php
