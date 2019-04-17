@@ -72,6 +72,7 @@ $(document).ready(function() {
 	        clearInterval(interval);
 	        moveTo($(this).index());
 	    });
+   
 
 	    sliderList.on('swipeleft', function(event) {
 	        moveNext();

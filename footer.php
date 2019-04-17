@@ -86,7 +86,19 @@
 				<!-- PAGE - SINGLE APARTMENT -->
 				<script src="js/templates/single-apartment.js"></script>
 				<!-- PAGE - SINGLE APARTMENT (END) -->
-			<?php }																				
+			<?php }
+			if ( strpos( $currentpage, 'page-about.php' ) == true ) { ?>
+				<!-- PAGE - ABOUT -->
+				<script src="js/templates/page-about.js"></script>
+				<!-- PAGE - ABOUT (END) -->
+			<?php }
+			if ( strpos( $currentpage, 'page-remodeled.php' ) == true ) { ?>
+				<!-- PAGE - REMODELED -->
+				<script src="js/libs/jquery.event.move.js"></script>
+				<script src="js/libs/jquery.twentytwenty.js"></script>
+				<script src="js/templates/page-remodeled.js"></script>
+				<!-- PAGE - REMODELED (END) -->
+			<?php }																									
 		?>
 	</body>
 </html>

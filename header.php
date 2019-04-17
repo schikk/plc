@@ -10,6 +10,15 @@
 		<link rel="stylesheet" href="css/rSlider.min.css">
 		<link rel="stylesheet" href="css/selectize.css">
 		<link rel="stylesheet" href="css/main.css">
+		<!-- SPECIFIC CSS -->
+		<?php
+			$currentpage = $_SERVER['REQUEST_URI'];
+			if ( strpos( $currentpage, 'page-remodeled.php' ) == true ) { ?>
+				<!-- PAGE - REMODELED -->
+				<link rel="stylesheet" href="css/twentytwenty.css">
+				<!-- PAGE - REMODELED (END) -->
+			<?php }	
+		?>	
 	</head>
 	<body class="home">
 		<header class="main-header-container">
@@ -72,16 +81,16 @@
 				<nav class="header-menu-nav">
 					<ul class="header-menu-left-col-list">
 						<li>
-							<a href="#">Про комплекс</a>
+							<a href="page-about.php">Про комплекс</a>
 						</li>
 						<li>
-							<a href="#">Сертифікація BREEAM</a>
+							<a href="page-certificate.php">Сертифікація BREEAM</a>
 						</li>
 						<li>
 							<a href="page-genplan.php">Планування</a>
 						</li>
 						<li>
-							<a href="#">Квартири з ремонтом</a>
+							<a href="page-remodeled.php">Квартири з ремонтом</a>
 						</li>
 						<li>
 							<a href="#">White Box</a>
@@ -113,5 +122,6 @@
 					<span>Handcrafted by</span>
 					<img src="img/elements/rossery-logo.svg" alt="rossery logo">
 				</a>
+				<div class="header-decorate-lines"></div>
 			</div>
 		</header>

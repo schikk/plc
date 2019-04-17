@@ -37,7 +37,7 @@
                         <li><span class="app-item">5</span>Ванна кімната — 14,57 м²</li>
                     </ul>
                     <div class="single-app-btns animation-element-default">
-                        <a href="#" class="plc-btn green-btn">Організувати перегляд</a>
+                        <a href="#" class="plc-btn green-btn plc-form-init-btn">Організувати перегляд</a>
                         <div class="single-app-additional-btns">					
                             <a target="_blank" class="single-app-additional-btn" href="https://metropolis.com.ua/images/flats/d1s11b_3.pdf" download="" data-icon="pdf"><span class="pdf-icon"></span>Скачати PDF</a>
                             <a class="single-app-additional-btn" target="_blank" href="https://metropolis.com.ua/images/flats/d1s11b_3.pdf" data-icon="print"><span class="print-icon"></span>Надрукувати</a>

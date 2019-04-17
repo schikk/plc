@@ -8,7 +8,7 @@
 				</div>
 				<div class="top-section-contact-info-right-col">
 					<a href="tel:+380445632134">+38 044 563 21 34</a>
-					<a href="#" class="watch-on-map-btn">Замовити дзвінок</a>
+					<a href="#" class="watch-on-map-btn plc-form-init-btn">Замовити дзвінок</a>
 				</div>				
 			</div>
 			<a href="#" class="breeam-link">
