@@ -93,27 +93,27 @@
 							<a href="page-remodeled.php">Квартири з ремонтом</a>
 						</li>
 						<li>
-							<a href="#">White Box</a>
+							<a href="page-whitebox.php">White Box</a>
 						</li>
 						<li>
-							<a href="#">Хід будівництва</a>
+							<a href="page-progress.php">Хід будівництва</a>
 						</li>
 						<li>
-							<a href="#">Галерея</a>
+							<a href="javascript:void(0);" id="gallery-menu" data-images="defaultImages" class="gallery-button">Галерея</a>
 						</li>
 					</ul>
 					<ul class="header-menu-right-col-list">
 						<li>
-							<a href="#">Новини</a>
+							<a href="category-news.php">Новини</a>
 						</li>
 						<li>
-							<a href="#">Забудовник</a>
+							<a href="page-about-developer.php">Забудовник</a>
 						</li>
 						<li>
-							<a href="#">Документація</a>
+							<a href="page-documents.php">Документація</a>
 						</li>
 						<li>
-							<a href="#">Контакти</a>
+							<a href="page-contacts.php">Контакти</a>
 						</li>
 					</ul>
 				</nav>

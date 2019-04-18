@@ -1,5 +1,5 @@
 <? include("header.php") ?>
-	<main class="page-genplan">
+	<main class="page-genplan page-genplan-general">
 		<section class="main-genplan">
 			<h2>Оберіть секцію</h2>
 			<svg class="main-genplan-svg" style="background-image: url(img/genplan/main-genplan.jpg);" width="1920" height="1080" viewBox="0 0 1920 1080">

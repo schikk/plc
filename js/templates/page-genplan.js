@@ -1,5 +1,25 @@
 $(document).ready(function() {
 
+
+  $(".main-genplan-svg a").click(function(e){
+       e.preventDefault();
+       $('.main-genplan-svg').addClass('linked');
+       var 
+          href = $(this).attr('xlink:href'),
+          timeout = 2000;
+
+      setTimeout(function() {
+          $('.page-genplan-general').addClass('off-load');
+       }, 1500);
+          
+       setTimeout(function() {
+          //window.open(href, '_self');
+          location.href = href;
+       }, timeout);
+  }) 
+
+  $('.page-section-1').addClass('on-load');                                             
+
 	// Genplan hover
 	$('#genplan-link-section1').hover(function() {
 		$('.path-part-hover-section-1').addClass('path-part-hovered');

@@ -3,6 +3,7 @@
 				<div id="contacts_map">
 					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFJl-oqf0NECka4ZBhXlOVfeUnLvAa-Yw" type="text/javascript"></script>
 				</div>
+				<div class="footer-decorate-line"></div>
 			</div>
 			<div class="main-footer-right-col">
 				<h6>Зворотній зв’язок</h6>
@@ -23,6 +24,8 @@
                 <a href="#" class="plc-btn green-btn plc-form-init-btn">Організувати перегляд</a>
 			</div>
 		</footer>
+		<!-- GALLERY MODAL -->
+		<? include("gallery.php") ?>
 		<!-- FEEDBACK FORM -->
 		<div class="feedback-form-container">
 			<span class="close-menu-btn"></span>
@@ -63,7 +66,7 @@
 				<script src="js/templates/page-frontpage.js"></script>
 				<!-- PAGE - FRONTPAGE (END) -->
 			<?php }
-			if ( strpos( $currentpage, 'page-genplan.php' ) == true ) { ?>
+			if ( strpos( $currentpage, 'page-genplan.php' ) || strpos( $currentpage, 'page-section-1.php' ) || strpos( $currentpage, 'page-section-2.php' ) == true ) { ?>
 				<!-- PAGE - GENPLAN -->
 				<script src="js/libs/rSlider.min.js"></script>
 				<script src="js/templates/page-genplan.js"></script>
@@ -98,7 +101,27 @@
 				<script src="js/libs/jquery.twentytwenty.js"></script>
 				<script src="js/templates/page-remodeled.js"></script>
 				<!-- PAGE - REMODELED (END) -->
-			<?php }																									
+			<?php }
+			if ( strpos( $currentpage, 'page-progress.php' ) == true ) { ?>
+				<!-- PAGE - PROGRESS -->
+				<script src="js/templates/page-progress.js"></script>
+				<!-- PAGE - PROGRESS (END) -->
+			<?php }
+			if ( strpos( $currentpage, 'single-progress.php' ) == true ) { ?>
+				<!-- PAGE - SINGLE PROGRESS -->
+				<script src="js/templates/single-progress.js"></script>
+				<!-- PAGE - SINGLE PROGRESS (END) -->
+			<?php }
+			if ( strpos( $currentpage, 'single-news.php' ) == true ) { ?>
+				<!-- PAGE - SINGLE NEWS -->
+				<script src="js/templates/single-news.js"></script>
+				<!-- PAGE - SINGLE NEWS (END) -->
+			<?php }
+			if ( strpos( $currentpage, 'about-developer.php' ) == true ) { ?>
+				<!-- PAGE - ABOUT DEVELOPER -->
+				<script src="js/templates/single-news.js"></script>
+				<!-- PAGE - ABOUT DEVELOPER (END) -->
+			<?php }																							
 		?>
 	</body>
 </html>

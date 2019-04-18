@@ -14,7 +14,7 @@
 				<span class="scroll-down-line"></span>
 			</div>
 		</section>
-		<section class="remodeled-description section-white">
+		<section class="remodeled-description">
 			<div class="text">
 				<p>Вам необов'язково потрібні дорога дизайнерські меблі та ексклюзивний декор, щоб зробити інтер'єр квартири стильним і затишним. Але вам потрібна якісна обробка, яка стане гідною основою для персоналізації простору.</p> 
 				<p>Крім трендового дизайну і якісних матеріалів, обробка в Level Павелецька - це ще й особливий набір додаткових смарт-рішень, нестандартних для типових новобудов. Незвично високі дверні прорізи виглядають солідніше і візуально збільшують висоту стін. Матові натяжні стелі залишають місце для цікавих рішень по освітленню і зонування простору. Розташування розеток, вбудованих в плінтуси, залишається гнучким - їх можна легко перенести без штроблення стін. Ванна кімната виглядає вишукано і лаконічно завдяки керамограниту і преміальної сантехніці, а загальний підлогу з ламінату на суміщеної кухні-вітальні дозволяє зробити те, про що багато хто тільки мріють - тепла підлога у всій зоні.</p>
@@ -60,7 +60,7 @@
 				<span class="right-control"></span>
 			</div>
 		</section>
-		<section class="comparison">
+		<section class="comparison white-section">
 			<div class="comparison-slider-wrapper">
 				<div id="visual-impact">
 					<img src="img/remodeled/before.jpg" alt="compare">
@@ -70,7 +70,7 @@
 				<span class="comparison-style right">Стиль 2</span>
 			</div>
 		</section>
-		<section class="comparison-style-description comparison-style1-descr" id="comparison-style1">
+		<section class="comparison-style-description comparison-style1-descr white-section" id="comparison-style1">
 			<div class="top-comparison-style-description">
 				<h2>Стиль 1</h2>
 				<p>Вам необов'язково потрібні дорога дизайнерські меблі та ексклюзивний декор, щоб зробити інтер'єр квартири стильним і затишним. Але вам потрібна якісна обробка, яка стане гідною основою для персоналізації простору.</p>
@@ -164,7 +164,7 @@
 				<a href="#" class="plc-btn green-btn plc-form-init-btn">Отримати консультацію</a>
 			</div>
 		</section>
-		<section class="comparison-style-description comparison-style2-descr" id="comparison-style2">
+		<section class="comparison-style-description comparison-style2-descr white-section" id="comparison-style2">
 			<div class="top-comparison-style-description">
 				<h2>Стиль 2</h2>
 				<p>Вам необов'язково потрібні дорога дизайнерські меблі та ексклюзивний декор, щоб зробити інтер'єр квартири стильним і затишним. Але вам потрібна якісна обробка, яка стане гідною основою для персоналізації простору.</p>
@@ -258,7 +258,7 @@
 				<a href="#" class="plc-btn green-btn plc-form-init-btn">Отримати консультацію</a>
 			</div>
 		</section>
-		<section class="about-important" id="about-important-slider">
+		<section class="about-important white-section" id="about-important-slider">
 			<div class="about-important-left-col">
 				<ul class="materials-quality-img-list">
 					<li class="active">
