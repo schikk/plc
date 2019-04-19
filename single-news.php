@@ -4,7 +4,7 @@
 			<section class="single-news-intro intro-section">
 				<a href="javascript:history.go(-1)" class="back-to-ganplan-btn">Новини</a>
 				<img src="img/progress/progress-single.jpg" alt="">
-				<div class="single-news-intro-heading">
+				<div class="single-news-intro-heading animation-intro">
 					<div class="news-post-date">18.03.19</div>
 					<h1>Розіграш 2-ої квартири в третій секції</h1>
 				</div>
@@ -14,7 +14,7 @@
 				</div>
 			</section>
 			<section class="single-news-article">
-				<div class="wrapper">
+				<div class="wrapper animation-elementY">
 					<div class="text">
 						<p>Закінчені опоряджувальні роботи в місцях загального користування на 6 та 11 поверхах секції (ShowRoom). Закінчується монтаж вантажно-пасажирського ліфту, пуско-налагодження заплановано до кінця січня. Виконується монтаж елементів огородження балконів, фрагментів вентильованого фасаду та алюмінієвих конструкцій.</p>
 						<p>Закінчені опоряджувальні роботи в місцях загального користування на 6 та 11 поверхах секції (ShowRoom). Закінчується монтаж вантажно-пасажирського ліфту, пуско-налагодження заплановано до кінця січня. Виконується монтаж елементів огородження балконів, фрагментів вентильованого фасаду та алюмінієвих конструкцій.</p>
@@ -34,7 +34,7 @@
 					</div>					
 				</div>
 			</section>
-			<section class="last-news" id="last-news">
+			<section class="last-news animation-element" id="last-news">
 				<svg class="plc-section-bg-overlay" xmlns="http://www.w3.org/2000/svg" width="1367" height="771" viewBox="0 0 1367 771" fill="none">
 					<defs>
 					  <pattern id="img4" patternUnits="userSpaceOnUse" width="1600" height="900">

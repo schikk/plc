@@ -1,10 +1,9 @@
 $(document).ready(function() {
 
+  // Change color burger menu on scroll
   if ($('main section').eq(0).hasClass('white-section')) {
     $('.header-menu-btn').addClass('dark-burger');
   }
-
-  // Change color burger menu on scroll
   var offsetsArr = [];
   function changeBurger() {
       for (var i = $('section').length - 1; i >= 0; i--) { offsetsArr[i] = $('section').eq(i).offset().top; }
@@ -19,6 +18,45 @@ $(document).ready(function() {
   $(document).scroll(function() {
     changeBurger();
   });
+
+
+  // Animations on scroll
+
+  var $animation_elements = $('.animation-text-title, .animation-text-left, .animation-text-right, .animation-element, .animation-elementY');
+  var $window = $(window);
+
+  function check_if_in_view() {
+
+    var window_height = $window.height();
+    var window_top_position = $window.scrollTop();
+    var window_bottom_position = (window_top_position + window_height);
+
+    $.each($animation_elements, function() {
+
+      var $element = $(this);
+      var element_height = $element.outerHeight();
+      var element_top_position = $element.offset().top;
+      var element_bottom_position = (element_top_position + element_height);
+
+      //check to see if this current container is within viewport
+
+      if ((element_bottom_position >= window_top_position) &&
+          (element_top_position - 100 <= window_bottom_position)) {
+            $element.addClass('in-view');
+      } else {
+        // $element.removeClass('in-view');
+      }
+    });
+  }
+
+  if ( $(window).width() > 767 ) {
+
+    check_if_in_view();
+
+    $window.on('scroll resize', check_if_in_view);
+    $window.trigger('scroll');
+
+  }
 
 	// Open main menu
 	$('.header-menu-btn').click(function(event) {

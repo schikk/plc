@@ -1,8 +1,8 @@
 <? include("header.php") ?>
 	<main class="category-apartments-filter">
 		<a href="javascript:history.go(-1)" class="back-to-ganplan-btn">До вибору квартири</a>
-		<h1>Вибір квартири</h1>
-		<div class="category-apartments-filter-top-row">
+		<h1 class="animation-elementY">Вибір квартири</h1>
+		<div class="category-apartments-filter-top-row animation-elementY">
 			<div class="category-apartments-filter-top-left-col">
 				<nav class="category-apartments-filter-nav">
 					<ul class="category-apartments-filter-list">
@@ -40,7 +40,7 @@
 			</div>
 		</div>
 		<section class="category-apartments-filter-result white-section">
-			<ul class="category-apartments-filter-result-list">
+			<ul class="category-apartments-filter-result-list animation-elementY">
 				<li>
 					<a href="single-apartment.php">
 						<span class="ap-item-name">1Е-1</span>

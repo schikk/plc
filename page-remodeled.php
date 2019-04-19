@@ -6,8 +6,8 @@
 				<div class="section-bg-img-gradient"></div>				
 			</div>
 			<div class="intro-slider-content">
-				<h1 class="intro-slider-title">Квартира з ремонтом: чому це зручно?</h1>
-				<a href="page-genplan.php" class="plc-btn white-blue-btn">Обрати квартиру</a>
+				<h1 class="intro-slider-title animation-intro">Квартира з ремонтом: чому це зручно?</h1>
+				<a href="page-genplan.php" class="plc-btn white-blue-btn animation-intro">Обрати квартиру</a>
 			</div>
 			<div class="scroll-down">
 				<span class="scroll-down-text">scroll</span>
@@ -15,7 +15,7 @@
 			</div>
 		</section>
 		<section class="remodeled-description">
-			<div class="text">
+			<div class="text animation-elementY">
 				<p>Вам необов'язково потрібні дорога дизайнерські меблі та ексклюзивний декор, щоб зробити інтер'єр квартири стильним і затишним. Але вам потрібна якісна обробка, яка стане гідною основою для персоналізації простору.</p> 
 				<p>Крім трендового дизайну і якісних матеріалів, обробка в Level Павелецька - це ще й особливий набір додаткових смарт-рішень, нестандартних для типових новобудов. Незвично високі дверні прорізи виглядають солідніше і візуально збільшують висоту стін. Матові натяжні стелі залишають місце для цікавих рішень по освітленню і зонування простору. Розташування розеток, вбудованих в плінтуси, залишається гнучким - їх можна легко перенести без штроблення стін. Ванна кімната виглядає вишукано і лаконічно завдяки керамограниту і преміальної сантехніці, а загальний підлогу з ламінату на суміщеної кухні-вітальні дозволяє зробити те, про що багато хто тільки мріють - тепла підлога у всій зоні.</p>
 				<p>Стильно і зручно - не означає дорого. Оздоблення від Level Group обходиться на 30% дешевше в порівнянні з самостійним ремонтом і може виплачуватися по іпотеці.</p>
@@ -23,9 +23,9 @@
 		</section>
 		<section class="remodeled-advantages section-white" id="remodeled-advantages-slider">
 			<div class="certificate-wrapper">
-				<h2 class="plc-section-title">ПЕРЕВАГИ</h2>
-				<h3 class="plc-section-subtitle">Плюси покупки квартири з ремонтом</h3>
-				<ul class="sign-quality-list remodeled-advantages-list move-list">
+				<h2 class="plc-section-title animation-elementY">ПЕРЕВАГИ</h2>
+				<h3 class="plc-section-subtitle animation-elementY">Плюси покупки квартири з ремонтом</h3>
+				<ul class="sign-quality-list remodeled-advantages-list move-list animation-elementY">
 					<li>
 						<div class="sign-quality-item-heading-container">
 							<div class="sign-quality-icon-container">
@@ -60,7 +60,7 @@
 				<span class="right-control"></span>
 			</div>
 		</section>
-		<section class="comparison white-section">
+		<section class="comparison white-section animation-element">
 			<div class="comparison-slider-wrapper">
 				<div id="visual-impact">
 					<img src="img/remodeled/before.jpg" alt="compare">
@@ -72,10 +72,10 @@
 		</section>
 		<section class="comparison-style-description comparison-style1-descr white-section" id="comparison-style1">
 			<div class="top-comparison-style-description">
-				<h2>Стиль 1</h2>
-				<p>Вам необов'язково потрібні дорога дизайнерські меблі та ексклюзивний декор, щоб зробити інтер'єр квартири стильним і затишним. Але вам потрібна якісна обробка, яка стане гідною основою для персоналізації простору.</p>
+				<h2 class="animation-elementY">Стиль 1</h2>
+				<p class="animation-elementY">Вам необов'язково потрібні дорога дизайнерські меблі та ексклюзивний декор, щоб зробити інтер'єр квартири стильним і затишним. Але вам потрібна якісна обробка, яка стане гідною основою для персоналізації простору.</p>
 			</div>
-			<ul class="comparison-style-nav-list">
+			<ul class="comparison-style-nav-list animation-elementY">
 				<li>
 					<span>Вітальня</span>
 				</li>
@@ -89,7 +89,7 @@
 					<span>Ванна кімната</span>
 				</li>
 			</ul>
-			<ul class="styles-list">
+			<ul class="styles-list animation-element">
 				<li>
 					<div class="style-img-container-wrapper rellax-delayed" data-rellax-speed="2" data-rellax-percentage="0.5">
 	    				<div class="style-img-container" data-markers="[{x: '65', y: '8', title: 'Дерев’яні меблі ', description: 'Два шари фарби CAPAROL'}, {x: '41.5', y: '8', title: 'Дерев’яні меблі ', description: 'Стильні світильники Nowodvorski'}, {x: '41.5', y: '36', title: '', description: 'Підвісні світильники CRYSTAL'}, {x: '51', y: '43', title: 'Дерев’яні меблі ', description: 'Два шари фарби CAPAROL'}, {x: '19', y: '50', title: 'Дерев’яні меблі', description: 'Керамогранітна плитка'}, {x: '19', y: '90', title: '', description: 'Керамогранітна плитка'}, {x: '51', y: '85', title: 'Дерев’яні меблі', description: 'Екологічно чистий ламінат KAINDL'}]">
@@ -119,10 +119,10 @@
 					</div>
 				</li>				
 			</ul>
-			<div class="gallery-btn-container">
+			<div class="gallery-btn-container animation-elementY">
 				<a href="#" class="plc-btn green-btn gallery-init-btn">Галерея</a>
 			</div>
-			<span class="style-info-block">
+			<span class="style-info-block animation-elementY">
 				<h5>Що входить в обробку?</h5>
 			</span>
 			<div class="style-info-collapsable">
@@ -159,17 +159,17 @@
 					</li>																				
 				</ul>
 			</div>
-			<div class="style-btns-container">
+			<div class="style-btns-container animation-elementY">
 				<a href="page-genplan.php" class="plc-btn green-revers-btn">Обрати квартиру</a>
 				<a href="#" class="plc-btn green-btn plc-form-init-btn">Отримати консультацію</a>
 			</div>
 		</section>
 		<section class="comparison-style-description comparison-style2-descr white-section" id="comparison-style2">
 			<div class="top-comparison-style-description">
-				<h2>Стиль 2</h2>
-				<p>Вам необов'язково потрібні дорога дизайнерські меблі та ексклюзивний декор, щоб зробити інтер'єр квартири стильним і затишним. Але вам потрібна якісна обробка, яка стане гідною основою для персоналізації простору.</p>
+				<h2 class="animation-elementY">Стиль 2</h2>
+				<p class="animation-elementY">Вам необов'язково потрібні дорога дизайнерські меблі та ексклюзивний декор, щоб зробити інтер'єр квартири стильним і затишним. Але вам потрібна якісна обробка, яка стане гідною основою для персоналізації простору.</p>
 			</div>
-			<ul class="comparison-style-nav-list">
+			<ul class="comparison-style-nav-list animation-elementY">
 				<li>
 					<span>Вітальня</span>
 				</li>
@@ -183,7 +183,7 @@
 					<span>Ванна кімната</span>
 				</li>
 			</ul>
-			<ul class="styles-list">
+			<ul class="styles-list animation-element">
 				<li>
 					<div class="style-img-container-wrapper rellax-delayed" data-rellax-speed="2" data-rellax-percentage="0.5">
 	    				<div class="style-img-container" data-markers="[{x: '65', y: '8', title: 'Дерев’яні меблі ', description: 'Два шари фарби CAPAROL'}, {x: '41.5', y: '8', title: 'Дерев’яні меблі ', description: 'Стильні світильники Nowodvorski'}, {x: '41.5', y: '36', title: '', description: 'Підвісні світильники CRYSTAL'}, {x: '51', y: '43', title: 'Дерев’яні меблі ', description: 'Два шари фарби CAPAROL'}, {x: '19', y: '50', title: 'Дерев’яні меблі', description: 'Керамогранітна плитка'}, {x: '19', y: '90', title: '', description: 'Керамогранітна плитка'}, {x: '51', y: '85', title: 'Дерев’яні меблі', description: 'Екологічно чистий ламінат KAINDL'}]">
@@ -213,10 +213,10 @@
 					</div>
 				</li>				
 			</ul>
-			<div class="gallery-btn-container">
+			<div class="gallery-btn-container animation-elementY">
 				<a href="#" class="plc-btn green-btn gallery-init-btn">Галерея</a>
 			</div>
-			<span class="style-info-block">
+			<span class="style-info-block animation-elementY">
 				<h5>Що входить в обробку?</h5>
 			</span>
 			<div class="style-info-collapsable">
@@ -253,13 +253,13 @@
 					</li>																				
 				</ul>
 			</div>
-			<div class="style-btns-container">
+			<div class="style-btns-container animation-elementY">
 				<a href="page-genplan.php" class="plc-btn green-revers-btn">Обрати квартиру</a>
 				<a href="#" class="plc-btn green-btn plc-form-init-btn">Отримати консультацію</a>
 			</div>
 		</section>
 		<section class="about-important white-section" id="about-important-slider">
-			<div class="about-important-left-col">
+			<div class="about-important-left-col animation-element">
 				<ul class="materials-quality-img-list">
 					<li class="active">
 						<img src="img/remodeled/quality.jpg" alt="">
@@ -273,11 +273,11 @@
 				</ul>
 			</div>
 			<div class="about-important-right-col">
-				<h2 class="plc-section-title">ПРО ВАЖЛИВЕ</h2>
+				<h2 class="plc-section-title animation-text-title">ПРО ВАЖЛИВЕ</h2>
 				<ul class="about-important-descr-list">
 					<li class="active">
-						<h3>Якість матеріалів</h3>
-						<p>В отделке и мебели использованы сертифицированные материалы. Они надежны и безопасны даже для самых маленьких жильцов.В отделке и мебели использованы сертифицированные материалы. Они надежны и безопасны даже для самых маленьких жильцов.</p>
+						<h3 class="animation-text-right">Якість матеріалів</h3>
+						<p class="animation-text-right">В отделке и мебели использованы сертифицированные материалы. Они надежны и безопасны даже для самых маленьких жильцов.В отделке и мебели использованы сертифицированные материалы. Они надежны и безопасны даже для самых маленьких жильцов.</p>
 					</li>
 					<li>
 						<h3>Якість матеріалів</h3>
@@ -294,7 +294,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="remodel-price-section">
+		<section class="remodel-price-section animation-element">
 			<div class="remodel-price-left-col">
 				<div class="remodel-price-left-col-form-wrapper">
 					<h6>Зв’язатися з нами</h6>

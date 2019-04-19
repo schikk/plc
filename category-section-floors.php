@@ -1,7 +1,7 @@
 <? include("header.php") ?>
 	<main class="category-sections-floors">
 		<a href="javascript:history.go(-1)" class="back-to-ganplan-btn">До вибору квартири</a>
-		<div class="category-sections-floors-filter-col">
+		<div class="category-sections-floors-filter-col animation-elementY">
 			<h1>Вибір квартири</h1>
 			<form action="#" id="category-sections-floors-filter">
 				<div class="filter-range-block">
@@ -55,10 +55,10 @@
 			</form>
 		</div>
 		<div class="category-sections-floors-filter-result-col">
-			<div class="filter-result-floor-container">
+			<div class="filter-result-floor-container animation-element">
 				<img src="img/genplan/floor-scheme-test.svg" alt="">
 			</div>
-            <ul class="floor-legend-list">
+            <ul class="floor-legend-list animation-element">
                 <li class="blue">1 - кiмнатнi</li>
                 <li class="light-green">2 - кiмнатнi</li>
                 <li class="navy">3 - кiмнатнi</li>

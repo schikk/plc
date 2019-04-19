@@ -9,8 +9,8 @@
 		</section>
 		<section class="whitebox-description white-section">
 			<div class="whitebox-wrapper">
-				<h1>White Box</h1>
-				<div class="text">
+				<h1 class="animation-elementY">White Box</h1>
+				<div class="text animation-elementY">
 					<p>Ми знаємо, що ви по-своєму бачите свій будинок. У кожного з вас є ментальна карта власного житлового простору, тому DIM group підготував ще одну концепцію, щоб ви могли легко і точно реалізувати своє бачення. Концепцію White box.</p> 
 					<p>DIM group бере на себе перетворення вашої квартири в чисте полотно - ви отримуєте повністю сплановану квартиру з чистової обробкою White box. Вам залишається саме творчо приємне заняття - вибір кольорів, текстур і матеріалів фінальної обробки і розстановка меблів.</p>
 					<p>У кожній квартирі буде під чистове оздоблення стін, виконана стяжка підлоги, проведена електропроводка і висновки під розетки, а також висновки в мокрих зонах. Таким чином ви отримаєте масу переваг у вигляді скорочення часу ремонту і швидкого заселення, до 30% економії бюджету на ремонт. У вас залишаться тільки приємні клопоти: вибір виду обробки стін, покриття для підлоги, сантехніки та меблів. А також передбачена можливість вибору квартири вільного планування.</p>
@@ -19,8 +19,8 @@
 		</section>
 		<section class="technical-specifications white-section">
 			<div class="technical-specifications-wrapper">
-				<h2>Технічні характеристики</h2>
-				<ul class="technical-specifications-list">
+				<h2 class="animation-elementY">Технічні характеристики</h2>
+				<ul class="technical-specifications-list animation-elementY">
 					<li>
 						<div class="technical-specifications-icon-container">
 							<img src="img/about/specifications/building.svg" alt="">

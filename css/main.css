@@ -219,12 +219,168 @@ div > img {
 	display: block;
 	margin-bottom: .2rem;
 }
+/* ANIMATION ON LOAD */
+@-webkit-keyframes revealIntroOverlays {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(1rem);
+                transform: translateX(1rem);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+                transform: none;
+    }
+}
+
+@keyframes revealIntroOverlays {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(1rem);
+                transform: translateX(1rem);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+                transform: none;
+    }
+}
+
+@-webkit-keyframes revealIntroOverlaysToRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-1rem);
+                transform: translateX(-1rem);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+                transform: none;
+    }
+}
+
+@keyframes revealIntroOverlaysToRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-1rem);
+                transform: translateX(-1rem);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+                transform: none;
+    }
+}
+@-webkit-keyframes revealIntroContent {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(2rem);
+                transform: translateX(2rem);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+                transform: none;
+    }
+}
+
+@keyframes revealIntroContent {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(2rem);
+                transform: translateX(2rem);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+                transform: none;
+    }
+}
+@-webkit-keyframes introImgReveal {
+    0% {
+        -webkit-transform: scale(1.4);
+                transform: scale(1.4);
+    }
+    100% {
+        -webkit-transform: none;
+                transform: none;
+    }
+}
+
+@keyframes introImgReveal {
+    0% {
+        -webkit-transform: scale(1.4);
+                transform: scale(1.4);
+    }
+    100% {
+        -webkit-transform: none;
+                transform: none;
+    }
+}
+@media only screen and (min-width: 767px) {
+	.animation-text-title {
+		opacity: 0;
+		transition: transform 1.5s, opacity 1.5s;
+	    -webkit-transform: translateY(-1rem);
+	            transform: translateY(-1rem);	
+	}
+	.animation-text-title.in-view {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	.animation-text-left {
+        opacity: 0;
+        -webkit-transform: translateX(-1rem);
+                transform: translateX(-1rem);
+        transition: transform 1.5s, opacity 1.5s;		
+	}
+	.animation-text-right {
+        opacity: 0;
+        -webkit-transform: translateX(1rem);
+                transform: translateX(1rem);
+        transition: transform 1.5s, opacity 1.5s;
+	}
+	.animation-text-left.in-view,
+	.animation-text-right.in-view {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	.animation-element {
+		opacity: 0;
+		transition: opacity 2s;
+	}
+	.animation-elementY {
+	    -webkit-transform: translateY(.5rem) scale(.9);
+	    transform: translateY(.5rem) scale(.9);
+	    opacity: 0;
+	    transition: opacity 1s ease, -webkit-transform 1s ease;
+	    transition: transform 1s ease, opacity 1s ease;
+	    transition: transform 1s ease, opacity 1s ease, -webkit-transform 1s ease;
+	}
+	.animation-elementY.in-view {
+		opacity: 1;
+		transform: translateY(0);		
+	}
+	.animation-element.in-view {
+		opacity: 1;
+	}
+	.animation-intro {
+		opacity: 0;
+		transition: opacity 2.5s ease, -webkit-transform 2.5s ease;
+	    transition: transform 2.5s ease, opacity 2.5s ease;
+	    transition: transform 2.5s ease, opacity 2.5s ease, -webkit-transform 2.5s ease;
+		animation: revealIntroContent 2s ease forwards;
+	}
+}
 /*--------------------------------------WRAP--------------------------------------*/
+main {
+	overflow: hidden;
+}
 .intro-section {
 	height: 100vh;
 	position: relative;
 }
-.intro-section::before {
+.intro-section::after {
     content: '';
     display: block;
     width: 100%;
@@ -241,6 +397,7 @@ div > img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	animation: introImgReveal 2s ease forwards;
 }
 .wrapper {
 	width: 8.2rem;
@@ -717,10 +874,20 @@ div > img {
 }
 .top-section-contact-info-left-col {
 	left: 2.8rem;
+	opacity: 0;
+    -webkit-animation: revealIntroOverlays 2s ease forwards;
+    animation: revealIntroOverlays 2s ease forwards;
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
 }
 .top-section-contact-info-right-col {
 	right: 1.84rem;
 	text-align: right;
+	opacity: 0;
+	-webkit-animation: revealIntroOverlaysToRight 2s ease forwards;
+    animation: revealIntroOverlaysToRight 2s ease forwards;
+    -webkit-animation-delay: .8s;
+    animation-delay: .8s;
 }
 .top-section-contact-info-left-col address,
 .top-section-contact-info-right-col a {
@@ -791,6 +958,13 @@ div > img {
 }
 .intro-slider-list > li .plc-btn {
 	padding: .24rem .5rem .24rem .5rem;
+    -webkit-transform: translateX(2rem);
+    transform: translateX(2rem);
+    opacity: 0;
+    transition: opacity 2.5s ease, -webkit-transform 2.5s ease;
+    transition: transform 2.5s ease, opacity 2.5s ease;
+    transition: transform 2.5s ease, opacity 2.5s ease, -webkit-transform 2.5s ease;
+    transition-delay: .4s;
 }
 .intro-slider-content {
 	width: 100%;
@@ -817,8 +991,6 @@ div > img {
 	color: #FFFFFF;
 	margin-bottom: .2rem;
 	padding-top: .5rem;
-	opacity: 0;
-    transition: transform 2.5s ease, opacity 2.5s ease, -webkit-transform 2.5s ease;
 }
 .intro-slider-description {
 	max-width: 4.35rem;
@@ -827,12 +999,25 @@ div > img {
 	letter-spacing: 0.03em;
 	color: #FFFFFF;
 	margin-bottom: .2rem;
+    transition-delay: .3s;
+}
+.intro-slider-list .intro-slider-title {
 	opacity: 0;
+    -webkit-transform: translateX(2rem);
+    transform: translateX(2rem);
     transition: transform 2.5s ease, opacity 2.5s ease, -webkit-transform 2.5s ease;
-    transition-delay: .2s;
+	transition-delay: .2s;
+}
+.intro-slider-list .intro-slider-description {
+	opacity: 0;
+	-webkit-transform: translateX(2rem);
+    transform: translateX(2rem);
+    transition: transform 2.5s ease, opacity 2.5s ease, -webkit-transform 2.5s ease;
+	transition-delay: .2s;
 }
 .intro-slider-list > li.active .intro-slider-title,
-.intro-slider-list > li.active .intro-slider-description {
+.intro-slider-list > li.active .intro-slider-description,
+.intro-slider-list > li.active .plc-btn {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
@@ -1048,14 +1233,14 @@ div > img {
 	transition: transform .5s;
 	cursor: pointer;
 }
-.adv-compl-left-control {
+.advantages-complex-slider-controls .adv-compl-left-control {
 	left: 1.5rem;
 	background-image: url(../img/elements/left-slider.svg);
 }
 .adv-compl-left-control:hover {
 	transform: translateX(-.05rem);
 }
-.adv-compl-right-control {
+.advantages-complex-slider-controls .adv-compl-right-control {
 	right: 1.5rem;
 	background-image: url(../img/elements/right-slider.svg);
 }
@@ -2156,6 +2341,7 @@ div > img {
     top: .7rem;
     left: 2.8rem;
     padding-left: .48rem;
+    z-index: 1;
 }
 .back-to-ganplan-btn::before {
 	content: '';
@@ -2786,6 +2972,7 @@ div > img {
 	height: 100%;
 	object-fit: cover;
 	transition: transform 4s ease;
+    animation: introImgReveal 2s ease forwards;
 }
 .section-bg-img-gradient {
 	width: 100%;
@@ -3790,6 +3977,7 @@ div > img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+    animation: introImgReveal 2s ease forwards;
 }
 .whitebox-description {
 	padding: 1.5rem 0;
@@ -3818,7 +4006,7 @@ div > img {
 	position: relative;
 	overflow: hidden;
 }
-.progress-intro::before {
+/*.progress-intro::before {
 	content: '';
 	display: block;
 	width: 100%;
@@ -3829,12 +4017,13 @@ div > img {
 	background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 	background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 	background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-}
+}*/
 .progress-intro > img {
 	display: block;
 	width: 100%;
 	height: 100%;
-	object-fit: cover;	
+	object-fit: cover;
+	animation: introImgReveal 2s ease forwards;
 }
 .progress-intro-heading {
 	position: absolute;
@@ -4054,7 +4243,7 @@ div > img {
 	height: 100vh;
 	position: relative;
 }
-.single-progress-intro::before {
+.single-progress-intro::after {
 	content: '';
 	display: block;
 	width: 100%;
@@ -4071,6 +4260,7 @@ div > img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+    animation: introImgReveal 2s ease forwards;
 }
 .single-progress-intro h1 {
 	max-width: 7.5rem;
@@ -4081,6 +4271,7 @@ div > img {
 	position: absolute;
 	bottom: 1.9rem;
 	left: 2.8rem;
+	z-index: 1;
 }
 .single-progress-description {
 	padding: 1.5rem 0;
@@ -4265,6 +4456,7 @@ div > img {
 	position: absolute;
 	bottom: 1.9rem;
 	left: 2.88rem;
+	z-index: 1;
 }
 .single-news-intro-heading .news-post-date {
 	color: #fff;

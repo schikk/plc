@@ -60,12 +60,12 @@
 		</section>
 		<section class="about-complex white-section">
 			<div class="about-complex-left-col">
-				<h2 class="plc-section-title">ПРО КОМПЛЕКС</h2>
-				<h3 class="plc-section-subtitle">Твій дім — твоє життя</h3>
-				<p class="plc-section-descr">Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємося у нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою!</p>
-				<a href="page-about.php" class="plc-btn green-btn">Детальніше</a>
+				<h2 class="plc-section-title animation-text-title">ПРО КОМПЛЕКС</h2>
+				<h3 class="plc-section-subtitle animation-text-left">Твій дім — твоє життя</h3>
+				<p class="plc-section-descr animation-text-left">Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємося у нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою!</p>
+				<a href="page-about.php" class="plc-btn green-btn animation-text-left">Детальніше</a>
 			</div>
-			<div class="about-complex-right-col">
+			<div class="about-complex-right-col animation-element">
 				<div class="about-complex-img-container">
 					<img src="img/frontpage/about-complex.jpg" alt="">
 				</div>
@@ -81,9 +81,9 @@
 				<path d="M426.54 1.44387C672.04 9.24064 855.188 73.0682 1087.13 104.793C1179.46 118.146 1263.56 123.088 1366.67 121.338V770.543C1263.56 772.292 1179.46 767.351 1087.13 753.998C855.188 722.273 672.04 658.445 426.54 650.649C268.224 645.621 105.091 675.046 0.674072 710.709V61.5041C105.091 25.8413 268.224 -3.58403 426.54 1.44387Z" fill="url(#img1)"/>
 				<path d="M426.54 1.44387C672.04 9.24064 855.188 73.0682 1087.13 104.793C1179.46 118.146 1263.56 123.088 1366.67 121.338V770.543C1263.56 772.292 1179.46 767.351 1087.13 753.998C855.188 722.273 672.04 658.445 426.54 650.649C268.224 645.621 105.091 675.046 0.674072 710.709V61.5041C105.091 25.8413 268.224 -3.58403 426.54 1.44387Z" fill="#282828" opacity="0.5"/>
 			</svg>
-			<h2 class="plc-section-title">ПЕРЕВАГИ</h2>
-			<h3 class="plc-section-subtitle">Цінуємо своїх мешканців</h3>
-			<div class="advantages-complex-slider-container move-list-container">
+			<h2 class="plc-section-title animation-elementY">ПЕРЕВАГИ</h2>
+			<h3 class="plc-section-subtitle animation-elementY">Цінуємо своїх мешканців</h3>
+			<div class="advantages-complex-slider-container move-list-container animation-elementY">
 				<ul class="advantages-complex-list move-list">
 					<li>
 						<div class="advantages-complex-icon-container">
@@ -123,10 +123,10 @@
 				</div>
 			</div>
 			<div class="t-f-complex-right-col">
-				<h2 class="plc-section-title">ПЕРЕВАГИ</h2>
-				<h3 class="plc-section-subtitle">Технічні особливості житла</h3>
-				<p class="plc-section-descr">Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємося у нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою!</p>
-				<ul class="technical-features-list">
+				<h2 class="plc-section-title animation-text-title">ПЕРЕВАГИ</h2>
+				<h3 class="plc-section-subtitle animation-text-right">Технічні особливості житла</h3>
+				<p class="plc-section-descr animation-text-right">Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємося у нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою!</p>
+				<ul class="technical-features-list animation-text-right">
 					<li>
 						<div class="technical-features-number-container">
 							<span class="technical-features-number">65</span>
@@ -182,7 +182,7 @@
 				<path d="M426.54 1.44387C672.04 9.24064 855.188 73.0682 1087.13 104.793C1179.46 118.146 1263.56 123.088 1366.67 121.338V770.543C1263.56 772.292 1179.46 767.351 1087.13 753.998C855.188 722.273 672.04 658.445 426.54 650.649C268.224 645.621 105.091 675.046 0.674072 710.709V61.5041C105.091 25.8413 268.224 -3.58403 426.54 1.44387Z" fill="url(#img2)"/>
 				<path d="M426.54 1.44387C672.04 9.24064 855.188 73.0682 1087.13 104.793C1179.46 118.146 1263.56 123.088 1366.67 121.338V770.543C1263.56 772.292 1179.46 767.351 1087.13 753.998C855.188 722.273 672.04 658.445 426.54 650.649C268.224 645.621 105.091 675.046 0.674072 710.709V61.5041C105.091 25.8413 268.224 -3.58403 426.54 1.44387Z" fill="#282828" opacity="0.3"/>
 			</svg>
-			<div class="infrastructure-container">
+			<div class="infrastructure-container animation-element">
 				<ul class="adv-map-pointers-list">
 					<li class="adv-map-pointer-parking active">
 						<span class="adv-map-pointer-descr">ПІДЗЕМНИЙ ПАРКІНГ</span>
@@ -226,7 +226,7 @@
 					</li>												
 				</ul>
 				<div class="adv-map-descr-container">
-					<ul class="adv-map-descr-list">
+					<ul class="adv-map-descr-list animation-element">
 						<li class="active">
 							<h2>Підземний паркінг</h2>
 							<p class="adv-map-descr">В комплексі для життя «Park Lake City» ми реалізували концепцію внутрішнього двору за принципом громадьского простору – для людей, а не автівок. В комплексі для життя «Park Lake City» ми реалізували концепцію.</p>
@@ -257,42 +257,42 @@
 		</section>
 		<section class="about-leisure white-section">
 			<div class="about-leisure-left-col">
-				<div class="about-complex-img-container">
+				<div class="about-complex-img-container animation-element">
 					<img src="img/frontpage/leisure.jpg" alt="">
 				</div>
 			</div>
 			<div class="about-leisure-right-col">
-				<h2 class="plc-section-title">ПРО ДОЗВІЛЛЯ</h2>
-				<h3 class="plc-section-subtitle">Свій особистий простір</h3>
-				<p class="plc-section-descr">Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці. Варто хоча б раз побувати тут, щоб зрозуміти, що це – місце, куди хочеться повертатися знову й знову.</p>
-				<a href="page-about.php" class="plc-btn green-btn">Детальніше</a>
+				<h2 class="plc-section-title animation-text-title">ПРО ДОЗВІЛЛЯ</h2>
+				<h3 class="plc-section-subtitle animation-text-right">Свій особистий простір</h3>
+				<p class="plc-section-descr animation-text-right">Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці. Варто хоча б раз побувати тут, щоб зрозуміти, що це – місце, куди хочеться повертатися знову й знову.</p>
+				<a href="page-about.php" class="plc-btn green-btn animation-text-right">Детальніше</a>
 			</div>
 		</section>
 		<section class="project-effectiveness white-section">
 			<div class="project-effectiveness-left-col">
-				<h2 class="plc-section-title">ЕФЕКТИВНІСТЬ ПРОЕКТУ</h2>
-				<h3 class="plc-section-subtitle">Сертифікація BREEAM</h3>
-				<p class="plc-section-descr">BREEAM спрямований на різноманітні екологічні аспекти та питання сталого розвитку, і дозволяє розробникам, проектувальникам і менеджерам проекту продемонструвати клієнтам, інженерам-планувальникам і іншим сторонам екологічні переваги своїх будинків.</p>
-				<a href="page-about.php" class="plc-btn green-btn">Детальніше</a>				
+				<h2 class="plc-section-title animation-text-title">ЕФЕКТИВНІСТЬ ПРОЕКТУ</h2>
+				<h3 class="plc-section-subtitle animation-text-left">Сертифікація BREEAM</h3>
+				<p class="plc-section-descr animation-text-left">BREEAM спрямований на різноманітні екологічні аспекти та питання сталого розвитку, і дозволяє розробникам, проектувальникам і менеджерам проекту продемонструвати клієнтам, інженерам-планувальникам і іншим сторонам екологічні переваги своїх будинків.</p>
+				<a href="page-about.php" class="plc-btn green-btn animation-text-left">Детальніше</a>				
 			</div>
 			<div class="project-effectiveness-right-col">
 				<div class="project-effectiveness-img-container">
 					<img src="img/frontpage/effectiveness/effectiveness.jpg" alt="">
 				</div>
 				<ul class="project-effectiveness-list">
-					<li>
+					<li class="animation-text-right">
 						<div class="project-effectiveness-icon-container">
 							<img src="img/frontpage/effectiveness/sun-icon.svg" alt="sun icon">
 						</div>
 						<span class="project-effectiveness-title">світло</span>
 					</li>
-					<li>
+					<li class="animation-text-right">
 						<div class="project-effectiveness-icon-container">
 							<img src="img/frontpage/effectiveness/air-icon.svg" alt="air icon">
 						</div>
 						<span class="project-effectiveness-title">повітря</span>
 					</li>
-					<li>
+					<li class="animation-text-right">
 						<div class="project-effectiveness-icon-container">
 							<img src="img/frontpage/effectiveness/energy-icon.svg" alt="energy icon">
 						</div>
@@ -312,8 +312,8 @@
 				<path d="M426.54 1.44387C672.04 9.24064 855.188 73.0682 1087.13 104.793C1179.46 118.146 1263.56 123.088 1366.67 121.338V770.543C1263.56 772.292 1179.46 767.351 1087.13 753.998C855.188 722.273 672.04 658.445 426.54 650.649C268.224 645.621 105.091 675.046 0.674072 710.709V61.5041C105.091 25.8413 268.224 -3.58403 426.54 1.44387Z" fill="#282828" opacity="0.65"/>
 			</svg>
 			<div class="construction-progress-content">
-				<h2 class="plc-section-title">ХІД БУДІВНИЦТВА</h2>
-				<div class="construction-progress-slider-content">
+				<h2 class="plc-section-title animation-elementY">ХІД БУДІВНИЦТВА</h2>
+				<div class="construction-progress-slider-content animation-elementY">
 					<ul class="construction-progress-news-list">
 						<li>
 							<h3 class="construction-progress-news-tile">Початок внутрішніх робіт</h3>
@@ -353,7 +353,7 @@
 					</ul>					
 				</div>
 			</div>
-			<div class="construction-progress-news-timeline-container">
+			<div class="construction-progress-news-timeline-container animation-elementY">
 				<ul class="construction-progress-news-timeline-list">
 					<li class="active">
 						<span class="progress-timeline-pointer-outer">
@@ -390,12 +390,12 @@
 		</section>
 		<section class="about-developer white-section">
 			<div class="about-developer-left-col">
-				<h2 class="plc-section-title">ЗАБУДОВНИК</h2>
-				<h3 class="plc-section-subtitle">DIM — це довіра та надійність</h3>
-				<p class="plc-section-descr">Група компаній ДІМ – це девелоперський холдинг повного циклу. Надійність девелопера - головний орієнтир при покупці квартири. Найкращий доказ нашої репутації - успішно реалізовані проекти.</p>
-				<a href="page-about.php" class="plc-btn green-btn">Детальніше</a>
+				<h2 class="plc-section-title animation-text-title">ЗАБУДОВНИК</h2>
+				<h3 class="plc-section-subtitle animation-text-left">DIM — це довіра та надійність</h3>
+				<p class="plc-section-descr animation-text-left">Група компаній ДІМ – це девелоперський холдинг повного циклу. Надійність девелопера - головний орієнтир при покупці квартири. Найкращий доказ нашої репутації - успішно реалізовані проекти.</p>
+				<a href="page-about.php" class="plc-btn green-btn animation-text-left">Детальніше</a>
 			</div>
-			<div class="about-developer-right-col">
+			<div class="about-developer-right-col animation-element">
 				<div class="about-developer-img-container">
 					<img src="img/frontpage/developer.jpg" alt="">
 				</div>
@@ -413,8 +413,8 @@
 				<path d="M426.54 1.44387C672.04 9.24064 855.188 73.0682 1087.13 104.793C1179.46 118.146 1263.56 123.088 1366.67 121.338V770.543C1263.56 772.292 1179.46 767.351 1087.13 753.998C855.188 722.273 672.04 658.445 426.54 650.649C268.224 645.621 105.091 675.046 0.674072 710.709V61.5041C105.091 25.8413 268.224 -3.58403 426.54 1.44387Z" fill="#282828" opacity="0"/>
 			</svg>
 			<div class="last-news-content">
-				<h2>Новини</h2>
-				<div class="move-list-container">
+				<h2 class="animation-elementY">Новини</h2>
+				<div class="move-list-container animation-elementY">
 					<ul class="last-news-list move-list">
 						<li>
 							<a href="#">
@@ -462,7 +462,7 @@
 						<span class="right-control"></span>
 					</div>				
 				</div>
-				<a href="category-news.php" class="plc-btn white-blue-btn">Всі новини</a>
+				<a href="category-news.php" class="plc-btn white-blue-btn animation-text-left">Всі новини</a>
 			</div>
 		</section>
 	</main>

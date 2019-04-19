@@ -2,7 +2,7 @@
 	<main class="single-apartment">
 		<a href="javascript:history.go(-1)" class="back-to-ganplan-btn back-to-ganplan-black-btn">До вибору квартири</a>
 		<section class="ap-description white-section">
-			<div class="ap-description-left-col">
+			<div class="ap-description-left-col animation-elementY">
 				<div class="app-info">
 					<span class="app-type animation-element-default">1Е-1</span>
                     <h1 class="animation-element-default">Технічні <br><span class="decorate-leaf">характеристики</span></h1>
@@ -46,7 +46,7 @@
                     </div>
                 </div>
 			</div>
-			<div class="ap-description-right-col">
+			<div class="ap-description-right-col animation-element">
 				<div class="single-ap-rose-container">
 					<img src="schemes/rose-icon.svg" alt="">
 				</div>
@@ -80,7 +80,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="section-aps-more" id="section_apps_more">
+		<section class="section-aps-more animation-element" id="section_apps_more">
 			<h2>Схожі квартири</h2>
 			<div class="apps-slider-container-inner">
 				<ul class="category-apartments-filter-result-list single-ap-slider-list">

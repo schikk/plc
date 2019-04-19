@@ -2,8 +2,8 @@
 	<main class="page-news">
 		<section class="news-promotion white-section">
 			<div class="page-news-wrapper">
-				<h1 class="page-title">Новини та акції</h1>
-				<ul class="news-category-menu-list">
+				<h1 class="page-title animation-elementY">Новини та акції</h1>
+				<ul class="news-category-menu-list animation-elementY">
 					<li class="current-category-item">
 						<a href="#">Всі новини</a>
 					</li>
@@ -11,7 +11,7 @@
 						<a href="#">Акції</a>
 					</li>
 				</ul>
-				<ul class="news-posts-list">
+				<ul class="news-posts-list animation-elementY">
 					<li>
 						<a href="single-news.php">
 							<div class="news-post-thumb-container">

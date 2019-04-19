@@ -1,9 +1,9 @@
 <? include("header.php") ?>
 	<main class="page-contacts">
 		<section class="main-contacts white-section">
-			<h1 class="page-title">Контакти</h1>
+			<h1 class="page-title animation-elementY">Контакти</h1>
 			<div class="main-contacts-row">
-				<div class="main-contacts-left-col">
+				<div class="main-contacts-left-col animation-elementY">
 					<h2>Офіс продажів</h2>
 					<ul class="contacts-info-list">
 						<li>
@@ -25,7 +25,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="main-contacts-right-col">
+				<div class="main-contacts-right-col animation-elementY">
 					<h2>Відділ по роботі з ріелторами</h2>
 					<ul class="contacts-info-list">
 						<li>

@@ -6,8 +6,8 @@
 				<div class="section-bg-img-gradient"></div>				
 			</div>
 			<div class="intro-slider-content">
-				<h1 class="intro-slider-title">Забудовник DIM —<br> впевненість у майбутньому</h1>
-				<p class="intro-slider-description">Наш ключовий принцип розвитку – Techumanity, система задоволення потреб людини за допомогою технологій. Архітектура, технології та сервіс – це основоположні складові, які ми використовуємо для покращення вашого простору проживання.</p>
+				<h1 class="intro-slider-title animation-intro">Забудовник DIM —<br> впевненість у майбутньому</h1>
+				<p class="intro-slider-description animation-intro">Наш ключовий принцип розвитку – Techumanity, система задоволення потреб людини за допомогою технологій. Архітектура, технології та сервіс – це основоположні складові, які ми використовуємо для покращення вашого простору проживання.</p>
 			</div>
 			<div class="scroll-down">
 				<span class="scroll-down-text">scroll</span>
@@ -16,19 +16,19 @@
 		</section>
 		<section class="about-complex white-section">
 			<div class="about-complex-left-col">
-				<h2 class="plc-section-title">ПРО ПРИНЦИПИ</h2>
-				<h3 class="plc-section-subtitle">Techumanity</h3>
-				<p class="plc-section-descr">Наш ключовий принцип розвитку – techumanity, система задоволення потреб людини за допомогою технологій. Архітектура, технології та сервіс – це основоположні складові, які ми використовуємо для покращення вашого простору проживання. Ми рухаємося від забудови території до створення просторів для життя, від розширення міст до їх трансформації і перетворення.</p>
+				<h2 class="plc-section-title animation-text-left">ПРО ПРИНЦИПИ</h2>
+				<h3 class="plc-section-subtitle animation-text-left">Techumanity</h3>
+				<p class="plc-section-descr animation-text-left">Наш ключовий принцип розвитку – techumanity, система задоволення потреб людини за допомогою технологій. Архітектура, технології та сервіс – це основоположні складові, які ми використовуємо для покращення вашого простору проживання. Ми рухаємося від забудови території до створення просторів для життя, від розширення міст до їх трансформації і перетворення.</p>
 			</div>
-			<div class="about-complex-right-col">
+			<div class="about-complex-right-col animation-element">
 				<div class="about-complex-img-container">
 					<img src="img/frontpage/about-complex.jpg" alt="">
 				</div>
 			</div>
 		</section>
 		<section class="company-statistics white-section">
-			<h2>Статистика компанії</h2>
-			<ul class="company-statistics-list">
+			<h2 class="animation-elementY">Статистика компанії</h2>
+			<ul class="company-statistics-list animation-elementY">
 				<li>
 					<div class="technical-features-number-container">
 						<span class="technical-features-number">5</span>
@@ -58,11 +58,11 @@
 					<span class="technical-features-descr">Побудовано компанією</span>
 				</li>				
 			</ul>
-			<div class="company-statistics-btn-container">
+			<div class="company-statistics-btn-container animation-elementY">
 				<a href="https://dim-bud.ua/" class="plc-btn green-btn" target="_blank">Більше про забудовника</a>
 			</div>
 		</section>
-		<section class="last-news" id="last-news">
+		<section class="last-news animation-element" id="last-news">
 			<svg class="plc-section-bg-overlay" xmlns="http://www.w3.org/2000/svg" width="1367" height="771" viewBox="0 0 1367 771" fill="none">
 				<defs>
 				  <pattern id="img4" patternUnits="userSpaceOnUse" width="1600" height="900">

@@ -1,11 +1,11 @@
 <? include("header.php") ?>
 	<main class="page-progress">
 		<section class="progress-intro" id="anim-counts">
-			<div class="progress-intro-heading">
+			<img src="img/progress/progress-intro.jpg" alt="">
+			<div class="progress-intro-heading animation-intro">
 				<h1>Статус будівництва</h1>
 				<p>1 черга — 22 вересня 2019</p>
 			</div>
-			<img src="img/progress/progress-intro.jpg" alt="">
 			<ul class="total-progress-list">
 				<li>
 					<span class="total-progress-percent"><span class="count" id="progress-monolit">55</span>%</span>
@@ -79,7 +79,7 @@
 		<section class="progress-main-content">
 			<div class="progress-main-content-wrapper">
 				<ul class="progress-main-list">
-					<li>
+					<li class="animation-element">
 						<div class="progress-main-item-left-col">
 							<span class="progress-public-date">30.02.19</span>
 							<h2>Закінчується продаж квартир третьої секції</h2>
@@ -93,7 +93,7 @@
 						</div>
 						<div class="progress-dot"></div>
 					</li>
-					<li>
+					<li class="animation-element">
 						<div class="progress-main-item-left-col">
 							<span class="progress-public-date">30.02.19</span>
 							<h2>Закінчується продаж квартир третьої секції</h2>
@@ -107,7 +107,7 @@
 						</div>
 						<div class="progress-dot"></div>
 					</li>
-					<li>
+					<li class="animation-element">
 						<div class="progress-main-item-left-col">
 							<span class="progress-public-date">30.02.19</span>
 							<h2>Закінчується продаж квартир третьої секції</h2>

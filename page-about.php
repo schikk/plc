@@ -16,9 +16,9 @@
 				</div>				
 			</div>
 			<div class="intro-slider-content">
-				<h1 class="intro-slider-title">Твій простір для життя Park Lake City</h1>
-				<p class="intro-slider-description">Дім, де є все для здорового життя. Твій дім — твоє життя. Особливий простір для тебе і твоєї сім’ї.</p>
-				<a href="page-genplan.php" class="plc-btn white-blue-btn">Обрати квартиру</a>
+				<h1 class="intro-slider-title animation-intro">Твій простір для життя Park Lake City</h1>
+				<p class="intro-slider-description animation-intro">Дім, де є все для здорового життя. Твій дім — твоє життя. Особливий простір для тебе і твоєї сім’ї.</p>
+				<a href="page-genplan.php" class="plc-btn white-blue-btn animation-intro">Обрати квартиру</a>
 			</div>
 			<div class="scroll-down">
 				<span class="scroll-down-text">scroll</span>
@@ -27,18 +27,18 @@
 		</section>
 		<section class="about-complex white-section">
 			<div class="about-complex-left-col">
-				<h2 class="plc-section-title">ПРО КОМПЛЕКС</h2>
-				<h3 class="plc-section-subtitle">Твій дім — твоє життя</h3>
-				<p class="plc-section-descr">Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці. Варто хоча б раз побувати тут, щоб зрозуміти, що це – місце, куди хочеться повертатися знову й знову. Варто хоча б раз побувати тут, щоб зрозуміти, що це – місце, куди хочеться повертатися знову й знову. Варто хоча б раз побувати тут, щоб зрозуміти.</p>
+				<h2 class="plc-section-title animation-text-title">ПРО КОМПЛЕКС</h2>
+				<h3 class="plc-section-subtitle animation-text-left">Твій дім — твоє життя</h3>
+				<p class="plc-section-descr animation-text-left">Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці. Варто хоча б раз побувати тут, щоб зрозуміти, що це – місце, куди хочеться повертатися знову й знову. Варто хоча б раз побувати тут, щоб зрозуміти, що це – місце, куди хочеться повертатися знову й знову. Варто хоча б раз побувати тут, щоб зрозуміти.</p>
 			</div>
 			<div class="about-complex-right-col">
-				<div class="about-complex-img-container">
+				<div class="about-complex-img-container animation-element">
 					<img src="img/frontpage/about-complex.jpg" alt="">
 				</div>
 			</div>
 		</section>
 		<section class="infrastructure">
-			<ul class="infrastructure-navigation-list">
+			<ul class="infrastructure-navigation-list animation-elementY">
 				<li class="restaurants-btn">
 					<span>Ресторани</span>
 				</li>
@@ -61,7 +61,7 @@
 					<span>Парки</span>
 				</li>				
 			</ul>
-			<div class="infrastructure-map">
+			<div class="infrastructure-map animation-element">
 				<img src="img/about/map.jpg" alt="">
 				<ul class="infrastructure-list infr-restaurants-list">
 					<li class="ifr-item-restaurant-1">
@@ -101,11 +101,11 @@
 		<section class="specifications white-section" id="specifications-slider">
 			<div class="specifications-wrapper">
 				<div class="specifications-left-col">
-					<h2 class="plc-section-title">ХАРАКТЕРИСТИКИ</h2>
-					<ul class="specifications-left-col-list">
+					<h2 class="plc-section-title animation-text-title animation-text-title">ХАРАКТЕРИСТИКИ</h2>
+					<ul class="specifications-left-col-list animation-element">
 						<li class="active">
-							<h3 class="plc-section-subtitle">Технічні особливості</h3>
-							<p class="plc-section-descr">Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємося у нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою! Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємося у нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою!</p>						
+							<h3 class="plc-section-subtitle animation-text-left">Технічні особливості</h3>
+							<p class="plc-section-descr animation-text-left">Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємося у нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою! Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємося у нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою!</p>						
 						</li>
 						<li>
 							<h3 class="plc-section-subtitle">Технічні особливості</h3>
@@ -114,7 +114,7 @@
 					</ul>
 					<a href="#" class="plc-btn green-btn plc-form-init-btn">Організувати перегляд</a>
 				</div>
-				<div class="specifications-right-col">
+				<div class="specifications-right-col animation-element">
 					<ul class="specifications-right-col-list">
 						<li class="active">
 							<div class="specifications-img-container">
@@ -136,8 +136,8 @@
 		</section>
 		<section class="technical-specifications white-section">
 			<div class="technical-specifications-wrapper">
-				<h2>Технічні характеристики</h2>
-				<ul class="technical-specifications-list">
+				<h2 class="animation-elementY">Технічні характеристики</h2>
+				<ul class="technical-specifications-list animation-elementY">
 					<li>
 						<div class="technical-specifications-icon-container">
 							<img src="img/about/specifications/building.svg" alt="">
@@ -206,20 +206,20 @@
 		</section>
 		<section class="about-leisure white-section">
 			<div class="about-leisure-left-col">
-				<div class="about-complex-img-container">
+				<div class="about-complex-img-container animation-element">
 					<img src="img/frontpage/leisure.jpg" alt="">
 				</div>
 			</div>
 			<div class="about-leisure-right-col">
-				<h2 class="plc-section-title">ПРО ДОЗВІЛЛЯ</h2>
-				<h3 class="plc-section-subtitle">Свій особистий простір</h3>
-				<p class="plc-section-descr">Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці. Варто хоча б раз побувати тут, щоб зрозуміти, що це – місце, куди хочеться повертатися знову й знову. Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці.</p>
+				<h2 class="plc-section-title animation-text-title">ПРО ДОЗВІЛЛЯ</h2>
+				<h3 class="plc-section-subtitle animation-text-right">Свій особистий простір</h3>
+				<p class="plc-section-descr animation-text-right">Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці. Варто хоча б раз побувати тут, щоб зрозуміти, що це – місце, куди хочеться повертатися знову й знову. Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці.</p>
 			</div>
 		</section>
 		<section class="documents" id="documents-slider">
-			<h2>Документація</h2>
+			<h2 class="animation-elementY">Документація</h2>
 			<div class="documents-wrapper">
-				<ul class="documents-list">
+				<ul class="documents-list animation-elementY">
 					<li>
 						<a href="#" target="_blank">
 							<div class="documents-img-container">
@@ -245,7 +245,7 @@
 						</a>
 					</li>										
 				</ul>
-				<a href="page-documents.php" class="plc-btn green-btn">Вся документація</a>
+				<a href="page-documents.php" class="plc-btn green-btn animation-element">Вся документація</a>
 			</div>
 		</section>
 	</main>

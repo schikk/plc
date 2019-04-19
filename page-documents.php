@@ -2,8 +2,8 @@
 	<main class="page-documents">
 		<section class="documents-content white-section">
 			<div class="page-documents-wrapper">
-				<h1 class="page-title">Документація</h1>
-				<ul class="documents-list">
+				<h1 class="page-title animation-elementY">Документація</h1>
+				<ul class="documents-list animation-elementY">
 					<li>
 						<a href="#" target="_blank">
 							<div class="documents-img-container">
