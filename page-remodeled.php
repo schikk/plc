@@ -55,7 +55,7 @@
 					</li>														
 				</ul>
 			</div>
-			<div class="remodeled-controls slider-controls">
+			<div class="remodeled-controls slider-controls animation-text-right">
 				<span class="left-control"></span>
 				<span class="right-control"></span>
 			</div>
@@ -288,7 +288,7 @@
 						<p>В отделке и мебели использованы сертифицированные материалы. Они надежны и безопасны даже для самых маленьких жильцов.В отделке и мебели использованы сертифицированные материалы. Они надежны и безопасны даже для самых маленьких жильцов.</p>
 					</li>										
 				</ul>
-				<div class="remodeled-controls slider-controls">
+				<div class="remodeled-controls slider-controls animation-text-right">
 					<span class="left-control"></span>
 					<span class="right-control"></span>
 				</div>

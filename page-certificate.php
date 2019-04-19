@@ -99,6 +99,7 @@
 					</li>										
 				</ul>
 			</div>
+			<canvas class="wave-animate" id="waves" style="width: 100%; height: 100%;"></canvas>
 		</section>
 	</main>
 <? include("footer.php") ?>

@@ -70,6 +70,7 @@
 					<img src="img/frontpage/about-complex.jpg" alt="">
 				</div>
 			</div>
+			<canvas class="wave-animate" id="waves" style="width: 100%; height: 100%;"></canvas>
 		</section>
 		<section class="advantages-complex " id="advantages-complex">
 			<svg class="plc-section-bg-overlay" xmlns="http://www.w3.org/2000/svg" width="1367" height="771" viewBox="0 0 1367 771" fill="none">
@@ -401,6 +402,7 @@
 				</div>
 				<img src="img/elements/dim-logo.svg" alt="DIM logo" class="about-developer-logo">
 			</div>
+			<canvas class="wave-animate" id="waves2" style="width: 100%; height: 100%;"></canvas>
 		</section>
 		<section class="last-news" id="last-news">
 			<svg class="plc-section-bg-overlay" xmlns="http://www.w3.org/2000/svg" width="1367" height="771" viewBox="0 0 1367 771" fill="none">
@@ -414,8 +416,8 @@
 			</svg>
 			<div class="last-news-content">
 				<h2 class="animation-elementY">Новини</h2>
-				<div class="move-list-container animation-elementY">
-					<ul class="last-news-list move-list">
+				<div class="move-list-container">
+					<ul class="last-news-list move-list animation-elementY">
 						<li>
 							<a href="#">
 								<time>30.02.19</time>
@@ -462,7 +464,7 @@
 						<span class="right-control"></span>
 					</div>				
 				</div>
-				<a href="category-news.php" class="plc-btn white-blue-btn animation-text-left">Всі новини</a>
+				<a href="category-news.php" class="plc-btn white-blue-btn animation-elementY">Всі новини</a>
 			</div>
 		</section>
 	</main>

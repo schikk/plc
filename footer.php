@@ -24,6 +24,8 @@
                 <a href="#" class="plc-btn green-btn plc-form-init-btn">Організувати перегляд</a>
 			</div>
 		</footer>
+		<!-- GO UP ANCHOR -->
+		<a href="#" class="up-anchor"></a>
 		<!-- GALLERY MODAL -->
 		<? include("gallery.php") ?>
 		<!-- FEEDBACK FORM -->
@@ -57,6 +59,7 @@
 		<script src="js/libs/jquery-migrate-3.0.0.min.js"></script>
 		<script src="js/libs/jquery.mobile.custom.min.js"></script>
 		<script src="js/libs/jquery.mask.min.js"></script>
+		<script src="js/libs/sine-waves.min.js"></script>
 		<script src="js/main.js"></script>
 		<!-- SPECIFIC JS -->
 		<?php
@@ -121,7 +124,17 @@
 				<!-- PAGE - ABOUT DEVELOPER -->
 				<script src="js/templates/single-news.js"></script>
 				<!-- PAGE - ABOUT DEVELOPER (END) -->
-			<?php }																							
+			<?php }
+			if ( strpos( $currentpage, 'page-certificate.php' ) == true ) { ?>
+				<!-- PAGE - CERTIFICATE -->
+				<script src="js/templates/page-certificate.js"></script>
+				<!-- PAGE - CERTIFICATE (END) -->
+			<?php }
+			if ( strpos( $currentpage, 'page-about-developer.php' ) == true ) { ?>
+				<!-- PAGE - ABOUT DEVELOPER -->
+				<script src="js/templates/page-about-developer.js"></script>
+				<!-- PAGE - ABOUT DEVELOPER (END) -->
+			<?php }																														
 		?>
 	</body>
 </html>

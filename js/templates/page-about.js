@@ -1,4 +1,11 @@
 $(document).ready(function() {
+
+	// Waves animation init
+	if ( $(window).width() > 767 ){
+		wavesAnimate('#waves');
+		wavesAnimate('#waves2');
+	};
+
 	// Infrastructure tabs
 	function infrastructureTabs() {
 		var infrTabBtn = $('.infrastructure-navigation-list > li');

@@ -36,6 +36,7 @@
 					<img src="img/frontpage/about-complex.jpg" alt="">
 				</div>
 			</div>
+			<canvas class="wave-animate" id="waves" style="width: 100%; height: 100%;"></canvas>
 		</section>
 		<section class="infrastructure">
 			<ul class="infrastructure-navigation-list animation-elementY">
@@ -112,7 +113,7 @@
 							<p class="plc-section-descr">Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємося у нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою! Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємося у нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою!</p>						
 						</li>						
 					</ul>
-					<a href="#" class="plc-btn green-btn plc-form-init-btn">Організувати перегляд</a>
+					<a href="#" class="plc-btn green-btn plc-form-init-btn animation-text-left">Організувати перегляд</a>
 				</div>
 				<div class="specifications-right-col animation-element">
 					<ul class="specifications-right-col-list">
@@ -215,6 +216,7 @@
 				<h3 class="plc-section-subtitle animation-text-right">Свій особистий простір</h3>
 				<p class="plc-section-descr animation-text-right">Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці. Варто хоча б раз побувати тут, щоб зрозуміти, що це – місце, куди хочеться повертатися знову й знову. Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці.</p>
 			</div>
+			<canvas class="wave-animate" id="waves2" style="width: 100%; height: 100%;"></canvas>
 		</section>
 		<section class="documents" id="documents-slider">
 			<h2 class="animation-elementY">Документація</h2>

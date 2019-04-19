@@ -25,6 +25,7 @@
 					<img src="img/frontpage/about-complex.jpg" alt="">
 				</div>
 			</div>
+			<canvas class="wave-animate" id="waves" style="width: 100%; height: 100%;"></canvas>
 		</section>
 		<section class="company-statistics white-section">
 			<h2 class="animation-elementY">Статистика компанії</h2>

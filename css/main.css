@@ -320,7 +320,7 @@ div > img {
 @media only screen and (min-width: 767px) {
 	.animation-text-title {
 		opacity: 0;
-		transition: transform 1.5s, opacity 1.5s;
+		transition: transform 1.5s, opacity 2s;
 	    -webkit-transform: translateY(-1rem);
 	            transform: translateY(-1rem);	
 	}
@@ -332,13 +332,13 @@ div > img {
         opacity: 0;
         -webkit-transform: translateX(-1rem);
                 transform: translateX(-1rem);
-        transition: transform 1.5s, opacity 1.5s;		
+        transition: transform 1.5s, opacity 2s;		
 	}
 	.animation-text-right {
         opacity: 0;
         -webkit-transform: translateX(1rem);
                 transform: translateX(1rem);
-        transition: transform 1.5s, opacity 1.5s;
+        transition: transform 1.5s, opacity 2s;
 	}
 	.animation-text-left.in-view,
 	.animation-text-right.in-view {
@@ -371,6 +371,12 @@ div > img {
 	    transition: transform 2.5s ease, opacity 2.5s ease, -webkit-transform 2.5s ease;
 		animation: revealIntroContent 2s ease forwards;
 	}
+}
+.wave-animate {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	z-index: -2;
 }
 /*--------------------------------------WRAP--------------------------------------*/
 main {
@@ -704,6 +710,46 @@ main {
 }
 .header-menu-left-col-list li {
 	margin-bottom: .25rem;
+    -webkit-transform: translateX(-1rem);
+    transform: translateX(-1rem);
+    opacity: 0;
+    transition: opacity 2s ease, -webkit-transform 2s ease;
+    transition: transform 2s ease, opacity 2s ease;
+    transition: transform 2s ease, opacity 2s ease, -webkit-transform 2s ease;
+}
+.header-menu-right-col-list > li {
+	opacity: 0;
+    -webkit-transform: translateX(-1rem);
+    transform: translateX(-1rem);
+    transition: opacity 2s ease, -webkit-transform 2s ease;
+    transition: transform 2s ease, opacity 2s ease;
+    transition: transform 2s ease, opacity 2s ease, -webkit-transform 2s ease;	
+}
+.header-menu-container.active ul li {
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+}
+.header-menu-left-col-list li:nth-of-type(2),
+.header-menu-right-col-list > li:nth-of-type(2) {
+    transition-delay: .2s;
+}
+.header-menu-left-col-list li:nth-of-type(3),
+.header-menu-right-col-list > li:nth-of-type(3) {
+    transition-delay: .3s;
+}
+.header-menu-left-col-list li:nth-of-type(4),
+.header-menu-right-col-list > li:nth-of-type(4) {
+    transition-delay: .4s;
+}
+.header-menu-left-col-list li:nth-of-type(5) {
+    transition-delay: .5s;
+}
+.header-menu-left-col-list li:nth-of-type(6) {
+    transition-delay: .6s;
+}
+.header-menu-left-col-list li:nth-of-type(7) {
+    transition-delay: .7s;
 }
 .header-menu-left-col-list li a {
 	display: block;
@@ -1056,6 +1102,7 @@ main {
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
+	position: relative;
 }
 .plc-section-title {
 	font-size: .1rem;
@@ -1109,6 +1156,7 @@ main {
 	-webkit-background-size: contain;
 	background-size: contain;
     background-position: 0 3.5rem;
+    transition: background-image .5s;
 }
 .about-complex-img-container img {
 	display: block;
@@ -2989,9 +3037,6 @@ main {
 .about-intro p {
 	margin-bottom: .5rem;
 }
-.about-intro .top-section-contact-info div {
-	z-index: 16;
-}
 .infrastructure {
 	padding: 0 0 .5rem 0;
 }
@@ -3340,6 +3385,10 @@ main {
 }
 .advantages {
 	padding: 0 0 .9rem 0;
+	position: relative;
+}
+.advantages .wave-animate {
+	top: 35%;
 }
 .certificate-advantages-wrapper {
 	padding: 0 .87rem 0 1.57rem;
@@ -3351,6 +3400,7 @@ main {
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
+	position: relative;
 }
 .advantages-list > li:not(:last-child) {
 	margin-bottom: 1.4rem;
@@ -5069,4 +5119,31 @@ main {
 }
 .gallery-modal-category-menu-list > li.current a {
     opacity: .3;
+}
+.up-anchor {
+	display: block;
+	width: .4rem;
+	height: .4rem;
+	background-color: #FFFFFF;
+	box-shadow: 0 .04rem .04rem rgba(0, 0, 0, 0.15);
+	position: fixed;
+    bottom: 10%;
+    right: .37rem;
+    border-radius: 50%;
+    background-image: url(../img/elements/up.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 5;
+    opacity: 0;
+    transition: opacity .5s, box-shadow .5s, transform .5s;
+    pointer-events: none;
+    cursor: pointer;
+}
+.up-anchor:hover {
+	box-shadow: 0 .06rem .06rem rgba(0, 0, 0, 0.25);
+	transform: translateY(-.03rem);
+}
+.up-anchor.active {
+	opacity: 1;
+	pointer-events: all;
 }

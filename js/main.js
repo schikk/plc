@@ -1,3 +1,66 @@
+  
+  // Waves animation
+  function wavesAnimate(selector) {
+      new SineWaves({
+          el: document.querySelector(selector),
+
+          speed: 1,
+
+          width: function() {
+            return $(window).width();
+          },
+
+          height: function() {
+            return $(window).height();
+          },
+
+          wavesWidth: '95%',
+
+          ease: 'SineInOut',
+
+          waves: [
+            {
+              timeModifier: 1,
+              lineWidth: 2,
+              amplitude: 100,
+              wavelength: 300,
+              segmentLength: 20,
+              strokeStyle: 'rgb(0, 160, 211, 1)',
+              type: 'sine' 
+            },
+            {
+              timeModifier: 1,
+              lineWidth: 2,
+              amplitude: 80,
+              wavelength: 200,
+              strokeStyle: 'rgba(213, 213, 213, 0.4)'
+            }
+          ],
+
+          initialize: function (){
+
+          },
+
+          resizeEvent: function() {
+            var gradient = this.ctx.createLinearGradient(0, 0, this.width, 0);
+                        gradient.addColorStop(0,"rgba(213, 213, 213, 0.4)");
+                        gradient.addColorStop(0.5,"rgb(0, 160, 211, 1)");
+                        gradient.addColorStop(1,"rgba(213, 213, 213, 0.4)");
+
+            var index = -1;
+            var length = this.waves.length;
+              while(++index < length){
+              this.waves[index].strokeStyle = gradient;
+            }
+
+            // Clean Up
+            index = void 0;
+            length = void 0;
+            gradient = void 0;
+          }
+        });
+  };
+
 $(document).ready(function() {
 
   // Change color burger menu on scroll
@@ -19,6 +82,20 @@ $(document).ready(function() {
     changeBurger();
   });
 
+  // Add scroll to top
+    $(window).on('scroll', function() {
+      if ( $(window).scrollTop() > 146 ){
+        $('.up-anchor').addClass('active');
+      } else {
+        $('.up-anchor').removeClass('active');
+      }
+    });
+    $(".up-anchor").on("click", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 800);
+    });
 
   // Animations on scroll
 
