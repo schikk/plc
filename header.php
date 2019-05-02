@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
 		<title>Park Lake City</title>
 		<!--styles-->
 		<link rel="stylesheet" href="fonts/fonts.css">
@@ -10,6 +11,7 @@
 		<link rel="stylesheet" href="css/rSlider.min.css">
 		<link rel="stylesheet" href="css/selectize.css">
 		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/mediaq.css">
 		<!-- SPECIFIC CSS -->
 		<?php
 			$currentpage = $_SERVER['REQUEST_URI'];

@@ -415,4 +415,10 @@ $(document).ready(function() {
 
     galleryModal();
 
+  // Mobile adaptation
+  if ( $(window).width() < 767 ) {
+    $('.header-sidebar-socials-list').insertAfter('.header-menu-nav');
+    $('.header-sidebar-lang-list').insertAfter('.header-menu-nav');
+  }
+
 });

@@ -336,4 +336,12 @@ $(document).ready(function() {
 	}
 	progressSlider('#construction-progress-slider');
 
+	// Mobile adaptation
+	if ( $(window).width() < 767 ) {
+		$('.project-effectiveness-left-col a').insertAfter('.project-effectiveness-right-col');
+		$('.other-advantages .plc-section-bg-overlay').wrapAll('<div class="mobile-adv-wrapper"></div>');
+		$('.adv-map-pointers-list').insertAfter('.mobile-adv-wrapper .plc-section-bg-overlay');
+		$('.mobile-adv-wrapper').wrapAll('<div class="mobile-adv-wrapper-outer"></div>');
+	}
+
 });	

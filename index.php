@@ -255,6 +255,7 @@
 					</div>
 				</div>				
 			</div>
+			<div class="mobile-swipe-icon"></div>
 		</section>
 		<section class="about-leisure white-section">
 			<div class="about-leisure-left-col">

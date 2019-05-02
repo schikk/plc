@@ -585,14 +585,14 @@ main {
 	transition: color .3s;
 }
 .header-menu-btn.dark-burger .header-menu-text {
-	color: #282828;
+	color: #1C5630;
 }
 .menu-stroke {
 	transition: stroke .5s;
 	stroke: #fff;
 }
 .header-menu-btn.dark-burger .menu-stroke {
-	stroke: #282828;
+	stroke: #1C5630;
 }
 .header-menu-btn:hover .menu-stroke1 {
 	stroke: #83BE43;
@@ -797,10 +797,12 @@ main {
 	cursor: pointer;
 	transition: transform .5s, background .5s;
 }
-.close-menu-btn:hover {
-	transform: rotate(90deg);
-	background-color: #98C11D;
-	background-image: url(../img/elements/close-menu-white.svg);
+@media only screen and (min-width: 767px) {
+	.close-menu-btn:hover {
+		transform: rotate(90deg);
+		background-color: #98C11D;
+		background-image: url(../img/elements/close-menu-white.svg);
+	}
 }
 .site-made-by {
 	position: absolute;
@@ -2411,6 +2413,8 @@ main {
 .category-sections-floors {
 	padding: 1.8rem 0 1rem 0;
 	position: relative;
+}
+.category-sections-floors > section {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -4771,7 +4775,8 @@ main {
 .page-remodeled + footer,
 .page-progress + footer,
 .page-news + footer,
-.page-documents + footer {
+.page-documents + footer,
+.page-404 + footer {
 	display: none;
 }
 /*------ FORM FEEDBACK ------*/
@@ -5146,4 +5151,54 @@ main {
 .up-anchor.active {
 	opacity: 1;
 	pointer-events: all;
+}
+/*------------------- PAGE 404 ----------------*/
+.page-404 {
+	height: 100%;
+	overflow: hidden;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.page-404-wrapper {
+	text-align: center;
+}
+.page-404-text {
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+	letter-spacing: 0.26em;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.page-404-text-reverse {
+	font-size: 1.5rem;
+	line-height: 1;
+	letter-spacing: 0.26em;
+    margin-top: -.8rem;
+	color: #FFFFFF;
+	font-weight: bold;
+	opacity: 0.3;
+	transform: matrix(1, 0, 0, -1, 0, 0);
+    background: linear-gradient(#FFFFFF 11.2%, rgba(255, 255, 255, 0.4706) 55%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: .25rem;
+}
+.page-404-not-found-text {
+	width: 100%;
+	font-size: .12rem;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+	text-align: center;
+	position: absolute;
+	bottom: .3rem;
+	left: 0;
 }

@@ -1,7 +1,7 @@
 <? include("header.php") ?>
 	<main class="single-apartment">
-		<a href="javascript:history.go(-1)" class="back-to-ganplan-btn back-to-ganplan-black-btn">До вибору квартири</a>
 		<section class="ap-description white-section">
+			<a href="javascript:history.go(-1)" class="back-to-ganplan-btn back-to-ganplan-black-btn">До вибору квартири</a>
 			<div class="ap-description-left-col animation-elementY">
 				<div class="app-info">
 					<span class="app-type animation-element-default">1Е-1</span>
