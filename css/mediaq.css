@@ -557,4 +557,26 @@
 	.page-404-text-reverse {
 		font-size: 1.2rem;
 	}
+	/* PAGE ABOUT */
+	.infrastructure-navigation-list {
+		flex-direction: column;
+		padding: 0 .2rem;
+	}
+	.infrastructure-navigation-list > li {
+		border: 0.75px solid rgba(138, 136, 136, 0.5);
+		box-sizing: border-box;
+	}
+	.infrastructure-navigation-list > li:not(:last-child) {
+		margin-right: 0;
+	}
+	.infrastructure-navigation-list > li span {
+		width: 100%;
+		border: none;
+		text-align: left;
+		padding: .18rem;
+		font-size: .14rem;
+		line-height: .17rem;
+		letter-spacing: 0.03em;
+	}
+
 }

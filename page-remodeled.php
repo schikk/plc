@@ -120,7 +120,7 @@
 				</li>				
 			</ul>
 			<div class="gallery-btn-container animation-elementY">
-				<a href="#" class="plc-btn green-btn gallery-init-btn">Галерея</a>
+				<a href="#" class="plc-btn green-btn gallery-init-btn gallery-button" data-images="defaultImages">Галерея</a>
 			</div>
 			<span class="style-info-block animation-elementY">
 				<h5>Що входить в обробку?</h5>
@@ -214,7 +214,7 @@
 				</li>				
 			</ul>
 			<div class="gallery-btn-container animation-elementY">
-				<a href="#" class="plc-btn green-btn gallery-init-btn">Галерея</a>
+				<a href="#" class="plc-btn green-btn gallery-init-btn gallery-button" data-images="defaultImages">Галерея</a>
 			</div>
 			<span class="style-info-block animation-elementY">
 				<h5>Що входить в обробку?</h5>

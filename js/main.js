@@ -64,23 +64,40 @@
 $(document).ready(function() {
 
   // Change color burger menu on scroll
-  if ($('main section').eq(0).hasClass('white-section')) {
-    $('.header-menu-btn').addClass('dark-burger');
+  // if ($('main section').eq(0).hasClass('white-section')) {
+  //   $('.header-menu-btn').addClass('dark-burger');
+  // }
+  // var offsetsArr = [];
+  // function changeBurger() {
+  //     for (var i = $('section').length - 1; i >= 0; i--) { offsetsArr[i] = $('section').eq(i).offset().top; }
+  //     var hamburgerOffsetTop = $('.header-menu-btn').offset().top;
+  //     for (var i = 0; i < offsetsArr.length; i++) {
+  //         if (hamburgerOffsetTop < offsetsArr[i + 1]) {
+  //             if ($('section').eq(i).hasClass('white-section') || $('section').eq(i).hasClass('white-section')) { $('.header-menu-btn').addClass('dark-burger'); } else { $('.header-menu-btn').removeClass('dark-burger'); }
+  //             break;
+  //         }
+  //     }
+  // }
+  // $(document).scroll(function() {
+  //   changeBurger();
+  // });
+
+  if ( $(window).width() > 768 ) {
+    var scrollPos = 50;
+    $(window).scroll(function(){
+       var st = $(this).scrollTop();
+       if (st > scrollPos){
+        $('.header-menu-btn').addClass('scrolled');
+       }
+       else if ($(window).scrollTop() < 5) {
+        $('.header-menu-btn').removeClass('scrolled');
+       } 
+        else {
+        $('.header-menu-btn').addClass('scrolled');
+       }
+       scrollPos = st;
+    }); 
   }
-  var offsetsArr = [];
-  function changeBurger() {
-      for (var i = $('section').length - 1; i >= 0; i--) { offsetsArr[i] = $('section').eq(i).offset().top; }
-      var hamburgerOffsetTop = $('.header-menu-btn').offset().top;
-      for (var i = 0; i < offsetsArr.length; i++) {
-          if (hamburgerOffsetTop < offsetsArr[i + 1]) {
-              if ($('section').eq(i).hasClass('white-section') || $('section').eq(i).hasClass('white-section')) { $('.header-menu-btn').addClass('dark-burger'); } else { $('.header-menu-btn').removeClass('dark-burger'); }
-              break;
-          }
-      }
-  }
-  $(document).scroll(function() {
-    changeBurger();
-  });
 
   // Add scroll to top
     $(window).on('scroll', function() {

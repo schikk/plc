@@ -2,12 +2,7 @@
 	<main class="page-single-news">
 		<article>
 			<section class="single-news-intro intro-section">
-				<a href="javascript:history.go(-1)" class="back-to-ganplan-btn">Новини</a>
 				<img src="img/progress/progress-single.jpg" alt="">
-				<div class="single-news-intro-heading animation-intro">
-					<div class="news-post-date">18.03.19</div>
-					<h1>Розіграш 2-ої квартири в третій секції</h1>
-				</div>
 				<div class="scroll-down">
 					<span class="scroll-down-text">scroll</span>
 					<span class="scroll-down-line"></span>
@@ -15,6 +10,11 @@
 			</section>
 			<section class="single-news-article">
 				<div class="wrapper animation-elementY">
+					<div class="single-news-back-date-conatiner">
+						<a href="javascript:history.go(-1)" class="back-to-ganplan-btn">Новини</a>
+						<div class="news-post-date">18.03.19</div>
+					</div>
+					<h1 class="single-news-title">Розіграш 2-ої квартири в третій секції</h1>
 					<div class="text">
 						<p>Закінчені опоряджувальні роботи в місцях загального користування на 6 та 11 поверхах секції (ShowRoom). Закінчується монтаж вантажно-пасажирського ліфту, пуско-налагодження заплановано до кінця січня. Виконується монтаж елементів огородження балконів, фрагментів вентильованого фасаду та алюмінієвих конструкцій.</p>
 						<p>Закінчені опоряджувальні роботи в місцях загального користування на 6 та 11 поверхах секції (ShowRoom). Закінчується монтаж вантажно-пасажирського ліфту, пуско-налагодження заплановано до кінця січня. Виконується монтаж елементів огородження балконів, фрагментів вентильованого фасаду та алюмінієвих конструкцій.</p>

@@ -27,5 +27,5 @@
 		    </li>
 	      </ul>                                                                                                    
 	</div>
-    <!-- <div class="close-gallery-modal"></div> -->
+    <div class="close-gallery-modal"></div>
 </div>
