@@ -189,12 +189,12 @@ div > img {
 .text p:only-of-type {
 	margin: 0;
 }
-.text ul,
+.text ul:not(.text-table),
 .text ol  {
     padding: 0 0 0 .2rem;
     margin: 0 0 .2rem 0;
 }
-.text ul > li {
+.text ul:not(.text-table) > li {
     font-size: .14rem;
     margin-bottom: .2rem;
 }
@@ -218,6 +218,20 @@ div > img {
 .text strong {
 	display: block;
 	margin-bottom: .2rem;
+}
+.text-table {
+	margin-bottom: .2rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+.text-table > li {
+	max-width: 33.333%;
+	padding: .05rem;
+	border: 1px solid #1C5630;
 }
 /* ANIMATION ON LOAD */
 @-webkit-keyframes revealIntroOverlays {
