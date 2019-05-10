@@ -3328,6 +3328,7 @@ main {
 	padding: .5rem .9rem .4rem;
 }
 .documents-img-container img {
+	width: 100%;
 	margin: auto;
 }
 .documents-list > li h3 {

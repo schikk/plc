@@ -321,4 +321,15 @@ $(document).ready(function() {
 
   remodeledForm();
 
+  // Mobile adaptation
+  if ( $(window).width() < 767 ) {
+  	$('.comparison-style-nav-list').click(function(event) {
+  		$(this).addClass('active');
+  	});
+  	$('.style-marker').click(function(event) {
+  		$('.style-marker-description').removeClass('active');
+  		$(this).find('.style-marker-description').addClass('active');
+  	});
+  }
+
 });	

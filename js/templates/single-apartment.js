@@ -123,11 +123,19 @@ $(document).ready(function() {
         // Autoplay
         var autoplay = options.autoplay ? setInterval(function(){ moveRight() }, 5000) : null;
     }
-    flatsSlider({
-        id: '#section_apps_more',
-        sliderList: '.category-apartments-filter-result-list',
-        control: '.slider-controls',
-        autoplay: false
-    });
+    if ( $(window).width() > 767 ) {
+	    flatsSlider({
+	        id: '#section_apps_more',
+	        sliderList: '.category-apartments-filter-result-list',
+	        control: '.slider-controls',
+	        autoplay: false
+	    });
+    }
+
+    // Mobile adaptation
+    if ( $(window).width() < 767 ) {
+        $('.single-ap-scheme-container').insertAfter('.technical-features-list');
+        $('.single-ap-rose-container').insertAfter('.app-type');
+    }
 
 });	

@@ -146,4 +146,23 @@ $(document).ready(function() {
 	    });
 	}
 	specificationsSlider('#specifications-slider');
+
+	// Mobile adaptation
+	if ( $(window).width() < 767 ) {
+		$('.infrastructure-navigation-list').click(function(event) {
+			$(this).addClass('active');
+		});
+		$('.infrastructure-map').wrapAll('<div class="infrastructure-outer-wrapper"></div>');
+		$('.specifications-controls').insertAfter('.specifications-right-col-list');
+		$('.technical-specifications-list').wrapAll('<div class="technical-specifications-outer-wrapper"></div>');
+		$('.documents-list').wrapAll('<div class="documents-outer-wrapper"></div>');
+
+		function documentsWidth() {
+			let $documents =  $('.documents-list');
+			let $documentItemWidth = $('.documents-list > li').outerWidth() + 16;
+			let $documentItemlenght = $('.documents-list > li').length;
+			$documents.css('width', $documentItemWidth*$documentItemlenght);
+		}
+		documentsWidth();
+	}
 });	

@@ -82,7 +82,6 @@ $(document).ready(function() {
   //   changeBurger();
   // });
 
-  if ( $(window).width() > 768 ) {
     var scrollPos = 50;
     $(window).scroll(function(){
        var st = $(this).scrollTop();
@@ -96,8 +95,7 @@ $(document).ready(function() {
         $('.header-menu-btn').addClass('scrolled');
        }
        scrollPos = st;
-    }); 
-  }
+    });
 
   // Add scroll to top
     $(window).on('scroll', function() {
@@ -436,6 +434,8 @@ $(document).ready(function() {
   if ( $(window).width() < 767 ) {
     $('.header-sidebar-socials-list').insertAfter('.header-menu-nav');
     $('.header-sidebar-lang-list').insertAfter('.header-menu-nav');
+    $('.header-sidebar-lang-list, .header-sidebar-socials-list').wrapAll('<div class="header-sidebar-mobile-bottom"></div>');
+    $('.technical-specifications-list').wrapAll('<div class="technical-specifications-outer-wrapper"></div>');
   }
 
 });

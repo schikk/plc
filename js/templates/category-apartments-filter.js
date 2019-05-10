@@ -54,4 +54,11 @@ $(document).ready(function() {
     	$('.main-header-container').removeClass('hidden');
     	$('.filter-overlay').removeClass('active');
     });
+
+    // Mobile adaptation
+    if ( $(window).width() < 767 ) {
+        $('.show-param-filter-btn').insertAfter('.category-apartments-filter h1');
+        $('.total-number-filter-ap-result').insertAfter('.filter-range-block-select-floor');
+    }
+
 });	

@@ -30,67 +30,86 @@
 						<div class="technical-specifications-icon-container">
 							<img src="img/about/specifications/building.svg" alt="">
 						</div>
-						<h3>Фасад</h3>
-						<p>Вентильований навісний, з використанням керамограніту</p>
+						<div class="technical-specifications-descr-container">
+							<h3>Фасад</h3>
+							<p>Вентильований навісний, з використанням керамограніту</p>
+						</div>
 					</li>
 					<li>
 						<div class="technical-specifications-icon-container">
 							<img src="img/about/specifications/window-frame.svg" alt="">
 						</div>
-						<h3>Віконні конструкціï</h3>
-						<p>Металопластикові, з 2-камерним енергозберігаючим склопакетом</p>
+						<div class="technical-specifications-descr-container">
+							<h3>Віконні конструкціï</h3>
+							<p>Металопластикові, з 2-камерним енергозберігаючим склопакетом</p>
+						</div>
 					</li>
 					<li>
 						<div class="technical-specifications-icon-container">
 							<img src="img/about/specifications/window-frame.svg" alt="">
 						</div>
-						<h3>Балконні блоки</h3>
-						<p>5-камерний металопластиковий профіль Windom DeLuxe та 1-камерний енергозберігаючий склопакет</p>
+						<div class="technical-specifications-descr-container">
+							<h3>Балконні блоки</h3>
+							<p>5-камерний металопластиковий профіль Windom DeLuxe та 1-камерний енергозберігаючий склопакет</p>
+						</div>
 					</li>
 					<li>
 						<div class="technical-specifications-icon-container">
 							<img src="img/about/specifications/rule-of-thirds.svg" alt="">
 						</div>
-						<h3>Утеплювач фасаду</h3>
-						<p>Мінеральна вата Rockwoo товщиною від 150 мм</p>
+						<div class="technical-specifications-descr-container">
+							<h3>Утеплювач фасаду</h3>
+							<p>Мінеральна вата Rockwoo товщиною від 150 мм</p>
+						</div>
 					</li>
 					<li>
 						<div class="technical-specifications-icon-container">
 							<img src="img/about/specifications/winch.svg" alt="">
 						</div>
-						<h3>Технологія будівництва</h3>
-						<p>Монолітна-каркасна</p>
+						<div class="technical-specifications-descr-container">
+							<h3>Технологія будівництва</h3>
+							<p>Монолітна-каркасна</p>
+						</div>
 					</li>
 					<li>
 						<div class="technical-specifications-icon-container">
 							<img src="img/about/specifications/heater.svg" alt="">
 						</div>
-						<h3>Опалення</h3>
-						<p>Власна котельня на даху</p>
+						<div class="technical-specifications-descr-container">
+							<h3>Опалення</h3>
+							<p>Власна котельня на даху</p>
+						</div>
 					</li>
 					<li>
 						<div class="technical-specifications-icon-container">
 							<img src="img/about/specifications/brick-wall.svg" alt="">
 						</div>
-						<h3>Зовнішні стіни</h3>
-						<p>Керамічна цегла</p>
+						<div class="technical-specifications-descr-container">
+							<h3>Зовнішні стіни</h3>
+							<p>Керамічна цегла</p>
+						</div>
 					</li>
 					<li>
 						<div class="technical-specifications-icon-container">
 							<img src="img/about/specifications/hotel-elevator.svg" alt="">
 						</div>
-						<h3>Ліфти</h3>
-						<p>OTIS – швидкісні, безшумні, з технологією плавного ходу</p>
+						<div class="technical-specifications-descr-container">
+							<h3>Ліфти</h3>
+							<p>OTIS – швидкісні, безшумні, з технологією плавного ходу</p>
+						</div>
 					</li>
 					<li>
 						<div class="technical-specifications-icon-container">
 							<img src="img/about/specifications/close.svg" alt="">
 						</div>
-						<h3>Введення в експлуатацію</h3>
-						<p>ІІ черга – ІV квартал 2021 р</p>
+						<div class="technical-specifications-descr-container">
+							<h3>Введення в експлуатацію</h3>
+							<p>ІІ черга – ІV квартал 2021 р</p>
+						</div>
 					</li>																				
 				</ul>
 			</div>
+			<div class="mobile-swipe-icon"></div>
 		</section>		
 	</main>
 <? include("footer.php") ?>			
