@@ -294,9 +294,15 @@ $(document).ready(function() {
     function galleryModal() {
         var modal = $('.gallery-modal'),
             galleryList = $('.gallery-modal-slider-list'),
+            sliderListItem = galleryList.children('li'),
             controlsListConatiner = $('.gallery-modal-slider-controls'),
             controlsList = controlsListConatiner.children('ul'),
-            closeBtn = modal.find('.close-gallery-modal');
+            closeBtn = modal.find('.close-gallery-modal'),
+            currentCounter = $('.current-gal-item'),
+            num = 1;
+            totalCounter = $('.total-gal-itmems');
+
+            currentCounter.html('1');
 
         // Functions
         function moveTo(index) {
@@ -321,18 +327,22 @@ $(document).ready(function() {
                 control.removeClass('active').eq(index).addClass('active');
                 galleryList.css('transform', 'translateX(-'+index*100+'vw)');
             }
+            // currentCounter.html(index + 1);
         }
 
         function moveNext() {
             var control = controlsList.children('li');
             var currentIndex = control.filter('.active').index();
             moveTo(currentIndex + 1);
+            currentCounter.html(currentIndex + 0);
         }
 
         function movePrev() {
             var control = controlsList.children('li');
             var currentIndex = control.filter('.active').index();
             moveTo(currentIndex - 1);
+            currentCounter.html(currentIndex);
+
         }
 
         function centerControl(index) {
@@ -393,13 +403,22 @@ $(document).ready(function() {
 
             var galleryListItem = galleryList.children('li');
             var control = controlsList.children('li');
-
+            var galleryListTotal = galleryListItem.length;
             galleryListItem.eq(0).addClass('active');
             control.eq(0).addClass('active');
             galleryList.css('transform', 'translateX(0)');
             controlsList.css('transform', 'translateX(0)');
+            totalCounter.html(galleryListTotal);
 
             openModal();
+
+            setTimeout(function() {
+              $('.gallery-mobile-info').hide('slow');
+            }, 3000);
+
+            $('.gallery-mobile-info').click(function(event) {
+              $(this).hide();
+            });
         });
 
         galleryList.on('click', function(event) {
@@ -436,6 +455,7 @@ $(document).ready(function() {
     $('.header-sidebar-lang-list').insertAfter('.header-menu-nav');
     $('.header-sidebar-lang-list, .header-sidebar-socials-list').wrapAll('<div class="header-sidebar-mobile-bottom"></div>');
     $('.technical-specifications-list').wrapAll('<div class="technical-specifications-outer-wrapper"></div>');
+
   }
 
 });

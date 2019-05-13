@@ -1,3 +1,7 @@
+.gallery-mobile-counter,
+.gallery-mobile-info {
+	display: none;
+}
 @media only screen and (max-width: 767px) {
 	html {font-size: 26.666666666666668vw;}
 	.intro-slider-container {
@@ -1359,7 +1363,7 @@
 		margin-bottom: .09rem;
 	}
 	.progress-intro-heading p {
-		margin-bottom: .67rem;
+		margin-bottom: .4rem;
 	}
 	.total-progress-waves-list {
 		display: none;
@@ -1584,10 +1588,63 @@
 	.gallery-modal-menu {
 		top: 1.3rem;
 	}
+	.gallery-mobile-counter {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		font-size: .25rem;
+		line-height: .4rem;
+		text-align: center;
+		letter-spacing: 0.02em;
+		font-weight: bold;
+		color: #FFFFFF;
+		position: absolute;
+		bottom: .5rem;
+		left: .2rem;
+		z-index: 1;
+	}
+	.gallery-mobile-info {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 11;
+	    background: rgb(0, 0, 0, 0.6);
+	    display: -webkit-flex;
+	    display: -moz-flex;
+	    display: -ms-flex;
+	    display: -o-flex;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	}
+	.gallery-mobile-info-content {
+		width: 2.27rem;
+		margin: auto;
+	    text-align: center;
+	}
+	.gallery-mobile-info-content img {
+		display: block;
+		margin: 0 auto .24rem;
+	}
+	.gallery-mobile-info-content p {
+		font-size: .14rem;
+		line-height: .28rem;
+		text-align: center;
+		letter-spacing: 0.02em;
+		color: #FFFFFF;
+	}
 }
 @media only screen and (max-width: 767px) and (orientation: landscape) {
-      html,body {font-size: 14.992503748125937vw;}
-      .feedback-form-container {
-      	top: -115%;
-      }
+  	html,body {font-size: 14.992503748125937vw;}
+	.feedback-form-container {
+		top: -115%;
+	}
+	.gallery-modal-menu {
+		top: .45rem;
+		left: .8rem;
+	}
 }	

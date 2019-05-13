@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+  if (screen.width <= 720) {
+    window.location = "category-apartments-filter.php";
+  }
 
   $(".main-genplan-svg a").click(function(e){
        e.preventDefault();

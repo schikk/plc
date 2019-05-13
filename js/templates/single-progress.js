@@ -53,7 +53,7 @@ $(document).ready(function() {
 	        sliderList.css('transform', 'translateX(-'+getSlideWidth()*index+'px)');
 	        sliderListItem.removeClass('active').eq(index).addClass('active');        
 	        control.removeClass('active').eq(index).addClass('active');
-	        currentCounter.html(index + 1 < 10 ? + (index+1) : index + 1);
+	        currentCounter.html(index + 1);
 	    }
 
 	    function moveNext() {
