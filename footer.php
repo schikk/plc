@@ -42,6 +42,14 @@
 						<input class="forms-input" type="tel" id="client-phone" name="client-phone" placeholder="Ваш телефон" autocomplete="off">
 						<span class="wrong-mssg">Ви не ввели номер телефону</span>
 					</div>
+					<div class="mssg-wrapper">
+						<textarea class="client-mssg" id="client-mssg" name="client-mssg" placeholder="Повідомлення"></textarea>
+					</div>
+					<div class="input-checkbox-wrapper">
+						<input type="checkbox" id="client-accept">
+						<span class="input-checkbox-decorate"></span>
+						<label for="client-accept">Я погоджуюсь на обробку моїх персональних данних</label>
+					</div>
 					<span class="plc-btn green-btn">
 	                    <input id="order-button" type="submit">
 	                    <span>Відправити</span>

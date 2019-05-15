@@ -215,6 +215,7 @@ $(document).ready(function() {
     var formWrapper = $('.feedback-form-wrapper');
     var submitBtn = $('#order-button');
     var succesMessage = $('.success-mssg');
+    var checkboxAccept = $('#client-accept');
 
     function validateName($name) {
       var nameReg = /^[a-zA-Zа-яА-Я ]{2,3000}$/;
@@ -245,9 +246,18 @@ $(document).ready(function() {
         setTimeout(function(){
           phoneInput.parent().removeClass('invalid');
         }, 3000 );
+      }
+
+      if (checkboxAccept.is(':checked')) {
+        checkboxAccept.addClass('ok');
+      } else {
+        checkboxAccept.parent().addClass('invalid');
+        setTimeout(function(){
+          checkboxAccept.parent().removeClass('invalid');
+        }, 3000 );
       }                                              
                  
-      if (validateName(nameInput.val()) && validatePhone(phoneInput.val()) ) {
+      if (validateName(nameInput.val()) && validatePhone(phoneInput.val()) && checkboxAccept.is(':checked') ) {
         // Serialize the form data.
         var formData = $(this).serialize();
 
@@ -299,7 +309,7 @@ $(document).ready(function() {
             controlsList = controlsListConatiner.children('ul'),
             closeBtn = modal.find('.close-gallery-modal'),
             currentCounter = $('.current-gal-item'),
-            num = 1;
+            num = 1,
             totalCounter = $('.total-gal-itmems');
 
             currentCounter.html('1');
@@ -315,34 +325,34 @@ $(document).ready(function() {
                 galleryListItem.removeClass('active').eq(itemsCount - 1).addClass('active');
                 control.removeClass('active').eq(itemsCount - 1).addClass('active');
                 galleryList.css('transform', 'translateX(-'+(itemsCount - 1)*100+'vw)');
+                currentCounter.html(itemsCount);
             }
             else if (index > itemsCount - 1) {
                 centerControl(0);
                 galleryListItem.removeClass('active').eq(0).addClass('active');
                 control.removeClass('active').eq(0).addClass('active');
                 galleryList.css('transform', 'translateX(0)');
+                num = index + 2;
+                currentCounter.html(1);
             } else {
                 centerControl(index);
                 galleryListItem.removeClass('active').eq(index).addClass('active');
                 control.removeClass('active').eq(index).addClass('active');
                 galleryList.css('transform', 'translateX(-'+index*100+'vw)');
+                currentCounter.html(index + 1);
             }
-            // currentCounter.html(index + 1);
         }
 
         function moveNext() {
             var control = controlsList.children('li');
             var currentIndex = control.filter('.active').index();
             moveTo(currentIndex + 1);
-            currentCounter.html(currentIndex + 1);
         }
 
         function movePrev() {
             var control = controlsList.children('li');
             var currentIndex = control.filter('.active').index();
             moveTo(currentIndex - 1);
-            currentCounter.html(currentIndex);
-
         }
 
         function centerControl(index) {
