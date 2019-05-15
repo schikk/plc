@@ -367,15 +367,22 @@
 		margin-bottom: .6rem;
 		flex-direction: column;
 	}
+	.about-leisure > div {
+		width: 100%;
+	}
 	.about-leisure-left-col {
 		margin-right: 0;
+		height: 2.5rem;
 	}
 	.about-leisure-left-col > div {
 		width: 100%;
 		height: 2.5rem;
 	}
 	.about-leisure-right-col {
-		padding: .4rem .2rem 0 .2rem;
+		padding: .4rem 0 0;
+	}
+	.about-leisure-right-col h2 {
+		margin-left: .2rem;
 	}
 	.project-effectiveness {
 		padding: 0;
@@ -706,6 +713,23 @@
 		padding: 1rem .2rem;
 		margin-bottom: 0;
 		position: relative;
+		margin-bottom: .5rem;
+	}
+	.about-leisure-descr-list {
+		margin-bottom: .3rem;
+	}
+	.about-leisure-descr-list > li,
+	.leisure-controls {
+		padding: 0 .2rem;
+	}
+	.leisure-controls {
+		justify-content: space-between;
+	}
+	.page-about .technical-features-complex {
+		margin-bottom: 1rem;
+	}
+	.page-about .technical-features-complex .t-f-complex-right-col {
+		margin-bottom: .5rem;
 	}
 	.technical-specifications-wrapper h2 {
 		font-size: .25rem;

@@ -171,6 +171,7 @@
 						<span class="technical-features-descr">Кількість секцій</span>
 					</li>																										
 				</ul>
+				<a href="#" class="plc-btn green-btn plc-form-init-btn animation-text-left in-view">Організувати перегляд</a>
 			</div>
 		</section>
 		<section class="other-advantages " id="infrastructure-slider">

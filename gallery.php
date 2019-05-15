@@ -28,9 +28,9 @@
 	      </ul>                                                                                                    
 	</div>
     <div class="close-gallery-modal"></div>
-<!--     <div class="gallery-mobile-counter">
+    <div class="gallery-mobile-counter">
     	<span class="current-gal-item"></span> | <span class="total-gal-itmems"></span>
-    </div> -->
+    </div>
     <div class="gallery-mobile-info">
     	<div class="gallery-mobile-info-content">
     		<img src="img/elements/swipe-finger.svg" alt="">

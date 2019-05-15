@@ -36,12 +36,12 @@ $(document).ready(function() {
 	infrastructureTabs();
 
 	// Specifications slider
-	function specificationsSlider(id) {
+	function leisureSlider(id) {
 	    var container = $(id),
-	        sliderContainer = container.find('.specifications-left-col'),
-	        sliderContainer2 = container.find('.specifications-right-col'),
-	        sliderList = container.find('.specifications-left-col-list'),
-	        sliderList2 = container.find('.specifications-right-col-list'),
+	        sliderContainer = container.find('.about-leisure-left-col'),
+	        sliderContainer2 = container.find('.about-leisure-right-col'),
+	        sliderList = container.find('.about-leisure-img-list'),
+	        sliderList2 = container.find('.about-leisure-descr-list'),
 	        sliderListItem = sliderList.children('li'),
 	        sliderListItem2 = sliderList2.children('li'),
 	        sliderListItemVideo = sliderListItem.find('video'),
@@ -145,7 +145,7 @@ $(document).ready(function() {
 	        initSlider();
 	    });
 	}
-	specificationsSlider('#specifications-slider');
+	leisureSlider('#leisure-slider');
 
 	// Mobile adaptation
 	if ( $(window).width() < 767 ) {

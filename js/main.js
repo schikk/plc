@@ -334,7 +334,7 @@ $(document).ready(function() {
             var control = controlsList.children('li');
             var currentIndex = control.filter('.active').index();
             moveTo(currentIndex + 1);
-            currentCounter.html(currentIndex + 0);
+            currentCounter.html(currentIndex + 1);
         }
 
         function movePrev() {

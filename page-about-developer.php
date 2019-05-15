@@ -32,10 +32,10 @@
 			<ul class="company-statistics-list animation-elementY">
 				<li>
 					<div class="technical-features-number-container">
-						<span class="technical-features-number">5</span>
+						<span class="technical-features-number">9</span>
 						<span class="technical-features-number-val">років</span>
 					</div>
-					<span class="technical-features-descr">Функціонуємо на ринку</span>
+					<span class="technical-features-descr">Функціонуємо<br> на ринку</span>
 				</li>
 				<li>
 					<div class="technical-features-number-container">
@@ -46,7 +46,7 @@
 				</li>
 				<li>
 					<div class="technical-features-number-container">
-						<span class="technical-features-number">150</span>
+						<span class="technical-features-number">273</span>
 						<span class="technical-features-number-val">людей</span>
 					</div>
 					<span class="technical-features-descr">Працюючих в компанії</span>
@@ -56,7 +56,7 @@
 						<span class="technical-features-number">1.2</span>
 						<span class="technical-features-number-val">м²</span>
 					</div>
-					<span class="technical-features-descr">Побудовано компанією</span>
+					<span class="technical-features-descr">В інвестиційному портфелі</span>
 				</li>				
 			</ul>
 			<div class="company-statistics-btn-container animation-elementY">

@@ -100,40 +100,61 @@
 				</ul>													
 			</div>
 		</section>
-		<section class="specifications white-section" id="specifications-slider">
-			<div class="specifications-wrapper">
-				<div class="specifications-left-col">
-					<h2 class="plc-section-title animation-text-title animation-text-title">ХАРАКТЕРИСТИКИ</h2>
-					<ul class="specifications-left-col-list animation-element">
-						<li class="active">
-							<h3 class="plc-section-subtitle animation-text-left">Технічні особливості</h3>
-							<p class="plc-section-descr animation-text-left">Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємося у нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою! Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємося у нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою!</p>						
-						</li>
-						<li>
-							<h3 class="plc-section-subtitle">Технічні особливості</h3>
-							<p class="plc-section-descr">Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємося у нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою! Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємося у нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою!</p>						
-						</li>						
-					</ul>
-					<a href="#" class="plc-btn green-btn plc-form-init-btn animation-text-left">Організувати перегляд</a>
+		<section class="technical-features-complex white-section">
+			<div class="t-f-complex-left-col">
+				<div class="technical-features-img-container">
+					<img src="img/frontpage/technical-features.jpg" alt="">
 				</div>
-				<div class="specifications-right-col animation-element">
-					<ul class="specifications-right-col-list">
-						<li class="active">
-							<div class="specifications-img-container">
-								<img src="img/about/specifications1.jpg" alt="">
-							</div>						
-						</li>
-						<li>
-							<div class="specifications-img-container">
-								<img src="img/about/specifications1.jpg" alt="">
-							</div>						
-						</li>						
-					</ul>
-				</div>			
 			</div>
-			<div class="specifications-controls slider-controls">
-				<span class="left-control"></span>
-				<span class="right-control"></span>
+			<div class="t-f-complex-right-col">
+				<h2 class="plc-section-title animation-text-title in-view">ПЕРЕВАГИ</h2>
+				<h3 class="plc-section-subtitle animation-text-right in-view">Технічні особливості житла</h3>
+				<p class="plc-section-descr animation-text-right in-view">Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємося у нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою!</p>
+				<ul class="technical-features-list animation-text-right in-view">
+					<li>
+						<div class="technical-features-number-container">
+							<span class="technical-features-number">65</span>
+							<span class="technical-features-number-val">га</span>
+						</div>
+						<span class="technical-features-descr">Площа комплексу</span>
+					</li>
+					<li>
+						<div class="technical-features-number-container">
+							<span class="technical-features-number">800</span>
+							<span class="technical-features-number-val">кв</span>
+						</div>
+						<span class="technical-features-descr">Кількість квартир</span>
+					</li>
+					<li>
+						<div class="technical-features-number-container">
+							<span class="technical-features-number">65</span>
+							<span class="technical-features-number-val">га</span>
+						</div>
+						<span class="technical-features-descr">Площа комплексу</span>
+					</li>
+					<li>
+						<div class="technical-features-number-container">
+							<span class="technical-features-number">4</span>
+							<span class="technical-features-number-val">секції</span>
+						</div>
+						<span class="technical-features-descr">Кількість секцій</span>
+					</li>
+					<li>
+						<div class="technical-features-number-container">
+							<span class="technical-features-number">430</span>
+							<span class="technical-features-number-val">місць</span>
+						</div>
+						<span class="technical-features-descr">Кількість паркомісць</span>
+					</li>
+					<li>
+						<div class="technical-features-number-container">
+							<span class="technical-features-number">4</span>
+							<span class="technical-features-number-val">секції</span>
+						</div>
+						<span class="technical-features-descr">Кількість секцій</span>
+					</li>																										
+				</ul>
+				<a href="#" class="plc-btn green-btn plc-form-init-btn animation-text-left in-view">Організувати перегляд</a>
 			</div>
 		</section>
 		<section class="technical-specifications white-section">
@@ -225,16 +246,33 @@
 			</div>
 			<div class="mobile-swipe-icon"></div>
 		</section>
-		<section class="about-leisure white-section">
+		<section class="about-leisure white-section" id="leisure-slider">
 			<div class="about-leisure-left-col">
-				<div class="about-complex-img-container animation-element">
-					<img src="img/frontpage/leisure.jpg" alt="">
-				</div>
+				<ul class="about-leisure-img-list">
+					<li>
+						<img src="img/frontpage/leisure.jpg" alt="">
+					</li>
+					<li>
+						<img src="img/frontpage/leisure.jpg" alt="">
+					</li>
+				</ul>
 			</div>
 			<div class="about-leisure-right-col">
 				<h2 class="plc-section-title animation-text-title">ПРО ДОЗВІЛЛЯ</h2>
-				<h3 class="plc-section-subtitle animation-text-right">Свій особистий простір</h3>
-				<p class="plc-section-descr animation-text-right">Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці. Варто хоча б раз побувати тут, щоб зрозуміти, що це – місце, куди хочеться повертатися знову й знову. Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці.</p>
+				<ul class="about-leisure-descr-list">
+					<li>
+						<h3 class="plc-section-subtitle animation-text-right">Свій особистий простір</h3>
+						<p class="plc-section-descr animation-text-right">Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці. Варто хоча б раз побувати тут, щоб зрозуміти, що це – місце, куди хочеться повертатися знову й знову. Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці.</p>
+					</li>
+					<li>
+						<h3 class="plc-section-subtitle animation-text-right">Свій особистий простір</h3>
+						<p class="plc-section-descr animation-text-right">Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці. Варто хоча б раз побувати тут, щоб зрозуміти, що це – місце, куди хочеться повертатися знову й знову. Виняткові за своєю красою домівки комплексу для життя «Космополіс», розташовані в одній з локацій Святошинського району столиці.</p>
+					</li>					
+				</ul>
+				<div class="leisure-controls slider-controls">
+					<span class="left-control"></span>
+					<span class="right-control"></span>
+				</div>
 			</div>
 			<canvas class="wave-animate" id="waves2" style="width: 100%; height: 100%;"></canvas>
 		</section>
